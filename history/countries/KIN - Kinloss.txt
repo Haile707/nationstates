@@ -1,0 +1,259 @@
+﻿capital = 126
+
+set_research_slots = 3
+
+oob = "KIN_1936"
+
+set_convoys = 220
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_naval_oob = "KIN_1936_Naval"
+	else = {
+		set_naval_oob = "KIN_1936_Naval_Legacy"
+	}
+}
+
+################RESISTANCE##################
+
+#IRELAND#
+119 = {
+	start_resistance = yes
+	set_compliance = 5
+	set_resistance = 40
+	set_garrison_strength = 1.0
+}
+
+134 = {
+	start_resistance = yes
+	set_compliance = 5
+	set_resistance = 55
+	set_garrison_strength = 1.0
+}
+
+113 = {
+	start_resistance = yes
+	set_compliance = 5
+	set_resistance = 55
+	set_garrison_strength = 1.0
+}
+
+135 = {
+	start_resistance = yes
+	set_compliance = 5
+	set_resistance = 55
+	set_garrison_strength = 1.0
+}
+
+#DANISH ATLANTIC#
+
+100 = {
+	start_resistance = yes
+	set_compliance = 30
+	set_resistance = 15
+	set_garrison_strength = 0.5
+}
+
+101 = {
+	start_resistance = yes
+	set_compliance = 30
+	set_resistance = 15
+	set_garrison_strength = 0.5
+}
+
+337 = {
+	start_resistance = yes
+	set_compliance = 30
+	set_resistance = 15
+	set_garrison_strength = 0.5
+}
+
+#SCOTLAND#
+
+121 = {
+	start_resistance = no
+	set_compliance = 95
+	set_resistance = 0
+	set_garrison_strength = 1
+}
+
+133 = {
+	start_resistance = no
+	set_compliance = 95
+	set_resistance = 0
+	set_garrison_strength = 1
+}
+
+136 = {
+	start_resistance = no
+	set_compliance = 95
+	set_resistance = 0
+	set_garrison_strength = 1
+}
+
+120 = {
+	start_resistance = no
+	set_compliance = 95
+	set_resistance = 0
+	set_garrison_strength = 1
+}
+
+#WALES#
+
+122 = {
+	start_resistance = no
+	set_compliance = 95
+	set_resistance = 0
+	set_garrison_strength = 1
+}
+
+#####################END#####################
+
+add_ideas = {
+	FED_member
+	KIN_revenge_for_24
+	KIN_federal_continuity
+	KIN_political_turmoil
+}
+
+add_ai_strategy = {
+    type = alliance
+    id = "BOR"
+    value = 200
+}
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	gwtank = 1
+	basic_light_tank = 1
+	#improved_light_tank = 1  # PLACEHOLDER
+	#basic_heavy_tank = 1  # PLACEHOLDER
+	#basic_medium_tank = 1 # PLACEHOLDER
+	early_fighter = 1
+	cv_early_fighter = 1
+	cv_naval_bomber1 = 1
+	naval_bomber1 = 1
+	early_bomber = 1
+	CAS1 = 1
+	
+	electronic_mechanical_engineering = 1
+	radio = 1
+	radio_detection = 1
+	fuel_silos = 1
+	fuel_refining = 1
+}
+
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+		early_submarine = 1
+		early_destroyer = 1
+		basic_destroyer = 1
+		early_light_cruiser = 1
+		early_heavy_cruiser = 1
+		early_battleship = 1
+		early_battlecruiser = 1
+		early_carrier = 1
+		transport = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		early_ship_hull_carrier = 1
+		basic_ship_hull_carrier = 1
+		basic_battery = 1
+		basic_light_battery = 1
+		basic_medium_battery = 1
+		basic_heavy_battery = 1
+		basic_torpedo = 1
+		sonar = 1
+		smoke_generator = 1
+		basic_depth_charges = 1
+		basic_secondary_battery = 1
+		basic_cruiser_armor_scheme = 1
+		basic_heavy_armor_scheme = 1
+		mtg_transport = 1
+		improved_secondary_battery = 1
+		basic_fire_control_system = 1
+	}
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 20
+	fascism = 10
+	communism = 0
+	neutrality = 70
+}
+
+create_country_leader = {
+	name = "Erich Koellner"
+	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+	picture = "Erich_Koellner.dds"
+	expire = "1965.1.1"
+	ideology = moderatism
+	traits = {
+		camarilla_leader
+	}
+}
+
+create_country_leader = {
+	name = "Johannes Koch"
+	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+	picture = "Johannes_Koch.dds"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+		indomitable_perseverance
+	}
+}
+
+create_country_leader = {
+	name = "Albrecht Hartmann"
+	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+	picture = "Albrecht_Hartmann.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+		hawk
+	}
+}
+
+create_country_leader = {
+	name = "Peter Stratenburg"
+	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+	picture = "Peter_Stratenburg.dds"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+		heels_nipper
+	}
+}

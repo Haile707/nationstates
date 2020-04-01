@@ -1,0 +1,344 @@
+﻿division_template = {
+	name = "Division d'Infanterie"		# Same for "Active" and "Reserve" Infantry Divisions
+	division_names_group = BEL_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }  
+	}
+}
+division_template = {
+	name = "Division de Cavalerie"  	# Cavalry Division
+	division_names_group = BEL_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }      	# Actually, 2x bicycle cav bns
+		engineer = { x = 0 y = 1 }   
+	}
+}
+division_template = {
+	name = "Cavalerie Motorisée"  		# Motorized Cavalry Brigade
+	division_names_group = BEL_MOT_01
+										# Note: motorized cavalry. Most sources have them truck-equipped.
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+	}
+}
+division_template = {
+	name = "Division Légère Mécanique"
+
+	division_names_group = FRA_ARM_01
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+        motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 2 y = 0 }
+        motorized = { x = 2 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }  
+	}
+}
+division_template = {
+	name = "Mariniersdivisie"		# Marines
+	division_names_group = HOL_MAR_01
+
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 1 y = 0 }
+		marine = { x = 1 y = 1 }
+	}
+	priority = 2
+}
+
+### OOB ###
+units = {
+	##### L'Armée Belge #####
+	# I Corps d'Armée
+	division= {	# "4ème Division d'Infanterie"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 4
+		}
+		location = 9574  # Hoeselt
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+
+	# II Corps d'Armée
+	division= {	# "6ème Division d'Infanterie"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 6
+		}
+		location = 13068  # Leuven
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+
+	# III Corps d'Armée
+	division= {	# "2ème Division d'Infanterie"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 11519  # Liege
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+	division= {	# "3ème Division d'Infanterie"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 3
+		}
+		location = 11519  # Liege
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+
+	# IV Corps d'Armée
+	division= {	# "5ème Division d'Infanterie"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 5
+		}
+		location = 516  #Brussels
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+
+	# Corps d'Cavalerie
+	division= {	# "1ère Division d'Infanterie"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 11519  # Liege
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+	division= {	# "2ème Division de Cavalerie"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 13068  # Leuven
+		division_template = "Division de Cavalerie"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		name = "Brigade de Cavalerie Motorisée"
+		location = 13068  # Leuven
+		division_template = "Cavalerie Motorisée"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+
+	# Groupement K
+	division= {	# "1ère Division de Chasseurs Ardennais"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 101
+		}
+		location = 11407  # St Hubert
+		division_template = "Division d'Infanterie"		# elite bicycle infantry
+		start_experience_factor = 0.3
+	}
+	division= {	# "1ère Division de Cavalerie"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 11407  # St Hubert
+		division_template = "Division de Cavalerie"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 391  # Amsterdam
+		division_template = "Division Légère Mécanique"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 9498  # Rotterdam
+		division_template = "Division Légère Mécanique"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 3
+		}
+		location = 9490  # Troyes
+		division_template = "Division Légère Mécanique"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+		}
+		location = 6469  # Essen
+		division_template = "Cavalerie Motorisée"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+		}
+		location = 11531  # Saarbruken	
+		division_template = "Cavalerie Motorisée"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+		}
+		location = 11548  # Calais
+		division_template = "Cavalerie Motorisée"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+		}
+		location = 9559  # Metz
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 9503  # Strasbourg
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 678  # Mulhouse
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+		}
+		location = 9642  # Besancon
+		division_template = "Division de Cavalerie"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+		}
+		location = 3560  # Sedan
+		division_template = "Division de Cavalerie"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+}
+
+air_wings = {
+	### Aéronautique Militaire Belge -- Brussels (Nivelle)
+	6 = {
+		# 2e Régiment d'Aéronautique 
+		# Consisted of 50 operational Gladiator Is, Hurricanes, CR.42s in 1940
+		# Only had Fairey Fox recon/l bombers that were also used as fighters in 1936, along with trainers
+		fighter_equipment_0 =  {
+			owner = "BEL" 
+			amount = 20
+		}
+	}
+}
+
+### Starting Production ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "BEL"
+		}
+		requested_factories = 2
+		progress = 0.52
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "BEL"
+		}
+		requested_factories = 1
+		progress = 0.85
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = fighter_equipment_0
+			creator = "BEL"
+		}
+		requested_factories = 1
+		progress = 0.85
+		efficiency = 100
+	}
+}

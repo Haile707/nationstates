@@ -1,0 +1,70 @@
+ideas = {
+
+	country = {
+		AND_imperial_march = {
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = great_depression
+			
+			modifier = {
+				army_defence_factor = 0.10
+				army_attack_factor = 0.10
+				conscription = 0.015
+			}
+		}
+
+		AND_confederation_of_guilds = {
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = great_depression
+			
+			modifier = {
+				war_support_factor = 0.12
+				stability_factor = -0.15
+				political_power_gain = -0.20
+				neutrality_drift = 0.02
+			}
+		}
+
+		AND_overextended_colonialism = {
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = great_depression
+			
+			modifier = {
+				war_support_factor = -0.20
+				stability_factor = -0.20
+				consumer_goods_factor = 0.10
+				democratic_drift = 0.04
+			}
+		}
+
+	}
+}

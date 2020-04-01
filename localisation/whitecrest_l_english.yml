@@ -1,0 +1,40 @@
+﻿l_english:
+ ###WHITECREST###
+ 
+ #NAMES
+ WIC_ADJ:0 "Whitecrestian"
+ WIC:0 "Whitecrest"
+ WIC_democratic_DEF:0 "the Republic of Whitecrest"
+ WIC_fascism_DEF:0 "the Empire of Whitecrest"
+
+ #PARTIES
+ WIC_democratic_party:0 "HSO - MW"
+ WIC_democratic_party_long:0 "Holy See of Odin - Moderate Wing"
+ WIC_fascism_party:0 "HSO - RW"
+ WIC_fascism_party_long:0 "Holy See of Odin - Radical Wing"
+ WIC_neutrality_party:0 "MIP"
+ WIC_neutrality_party_long:0 "Military Interests Party"
+ WIC_communism_party:0 "WSP"
+ WIC_communism_party_long:0 "Whitecrest Secular Party"
+
+ #NATIONAL SPIRITS
+ 
+
+ #NATIONAL FOCUSES
+ WIC_assasinate_lassen:0 "Assassinate Lassen"
+ WIC_assasinate_lassen_desc:0 "Filler"
+ WIC_moderation:0 "Moderation"
+ WIC_moderation_desc:0 "Filler"
+ WIC_restoration:0 "Restoration"
+ WIC_restoration_desc:0 "Filler"
+
+ #EVENTS
+ whitecrest.1.t:0 "The Problem of Alex Lassen"
+ whitecrest.1.d:0 "In the wake of our defeat in the Independence War and the signing of the Treaty of Copenhagen, our glorious leader. Vidkun Quisling, was hanged by the victorius Borians. In his place, they have appointed the a pathetic collaborator, which was Alex Lassen. While he thinks he controls us, we know better.\n\nNow, our assassins will dispose of him. Where Vidkun failed to kill the military prime minister in '22, his true successor will succeed in '36."
+ whitecrest.1.a:0 "Odin wills it!"
+
+ whitecrest.2.t:0 "Alex Lassen Assassinated!"
+ whitecrest.2.d:0 "On the steps of the Cristiansborg Palace, Alex Lassen, head of the Norse Church, was shot five times by a masked perpetrator using a concealed handgun. His guards were unable to apprehend the man, who escaped in a black sedan. Lassen was escorted to the Copenhagen Hospital, were he was pronounced dead an hour later.\n\n In the confusion of the day, political rival Eric Scanvenius has proclaimed himself the new head of the Norse Church. It is expected that the radical Scavenius will seek to reclaim his people's old empire."
+ whitecrest.2.a:0 "Whitecrest is back, boys!"
+ whitecrest.2.b:0 "What are those fools up to this time?"
+ whitecrest.2.c:0 "Our condolences..."

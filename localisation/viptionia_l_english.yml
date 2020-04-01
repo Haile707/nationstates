@@ -1,0 +1,25 @@
+﻿l_english:
+ ###VIPTIONIA###
+
+ #NAMES
+ VIP_ADJ:9 "Viptian"
+ VIP_fascism:0 "Viptionia"
+ VIP_fascism_DEF:0 "the Republic of Viptionia"
+
+ #PARTIES
+ VIP_fascism_party:0 "LOP"
+ VIP_fascism_party_long:0 "Law and Order Party"
+ VIP_neutrality_party:0 "BorChamVip"
+ VIP_neutrality_party_long:0 "Borian Chamber of Commmerce Viptionia"
+ VIP_democratic_party:0 "VFP"
+ VIP_democratic_party_long:0 "Viptionia First Party"
+ VIP_communism_party:0 "TUC"
+ VIP_communism_party_long:0 "Trade Union Congress"
+
+ #NATIONAL SPIRITS
+ VIP_bor_trade:0 "Three Hundred Fifty Kilometers"
+ VIP_bor_trade_desc:0 "The official reason for the capital being Carlsbad instead of Prague is to distance the administration from population centers and allow politicians to take to the waters. But Carlsbad is only 350 kilometers from Berlin... and with Borian capitalists owning many of the factories and businesses in Silesia and Prussia, the government is very susceptible to the whims of Berlin."
+ VIP_confidence_crisis:0 "Anti-Borian Sentiments"
+ VIP_confidence_crisis_desc:0 "Independence campaigners from the VFP have been growing in courage the past couple months, with more and more speeches and rallies being held in the streets, much to the disdain of the government. They are primarily driven by the LOP's inaction when dealing with Borians, and they will continue to agitate until we take a stand against them, one way or another."
+ VIP_imperial_march:0 "Martial Legacy"
+ VIP_imperial_march_desc:0 "Filler"

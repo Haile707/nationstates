@@ -1,0 +1,55 @@
+﻿capital = 117
+
+#oob = "PRS_1936"
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_recon = 1
+	tech_engineers = 1
+	motorised_infantry = 1
+	early_fighter = 1
+	trench_warfare = 1
+	fuel_silos = 1
+	fuel_refining = 1
+}
+
+add_ideas = {
+	FED_member
+	AND_imperial_march
+	AND_confederation_of_guilds
+	AND_overextended_colonialism
+}
+
+
+add_ai_strategy = {
+    type = alliance
+    id = "BOR"
+    value = 200
+}
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	democratic = 11
+	fascism = 41
+	communism = 15
+	neutrality = 33
+}
+
+create_country_leader = {
+	name = "Dominik Vlahović"
+#	desc = "werner_biermann_desc"
+	picture = "Dominik_Vlahović.dds"
+	expire = "1965.1.1"
+	ideology = nazism
+	traits = {
+		inexperienced_imperialist
+	}
+}

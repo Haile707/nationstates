@@ -1,0 +1,23 @@
+﻿l_english:
+ ###ANDIOUSPERRE###
+
+ #NAMES
+ AND_ADJ:0 "Andiouan"
+ AND_fascism:0 "Andiousperre"
+ AND_fascism_DEF:0 "the Confederation of Andiousperre"
+
+ #PARTIES
+ AND_fascism_party:0 "SLA"
+ AND_fascism_party_long:0 "Silver Legion Andiousperre"
+ AND_democratic_party:0 "FYP"
+ AND_democratic_party_long:0 "Free Yugoslavia Party"
+ AND_neutrality_party:0 "HC"
+ AND_neutrality_party_long:0 "Hapsburg Clique"
+
+ #NATIONAL SPIRITS
+ AND_imperial_march:0 "The Silver Legion"
+ AND_imperial_march_desc:0 "Filler"
+ AND_confederation_of_guilds:0 "Confederation of Guilds"
+ AND_confederation_of_guilds_desc:0 "Filler"
+ AND_overextended_colonialism:0 "Overextended Colonialism"
+ AND_overextended_colonialism_desc:0 "Filler"

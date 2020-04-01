@@ -1,0 +1,46 @@
+ideas = {
+
+	country = {
+		KAU_home_of_the_revolution = {
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = great_depression
+			
+			modifier = {
+				drift_defence_factor = 0.50
+				communism_drift = 0.01
+			}
+		}
+
+		KAU_c_rag = {
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = great_depression
+			
+			modifier = {
+				stability_factor = -0.15
+				democratic_drift = 0.03
+				neutrality_drift = 0.03
+				fascism_drift = 0.01
+			}
+		}
+	}
+}

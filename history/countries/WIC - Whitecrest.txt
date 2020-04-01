@@ -1,0 +1,100 @@
+capital = 37
+
+oob = "DEN_1936"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "DEN_1936_naval_mtg"
+	else = {
+		set_naval_oob = "DEN_1936_naval_legacy"
+	}
+}
+
+set_research_slots = 3
+set_stability = 0.4
+set_war_support = 1.0
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_recon = 1
+	tech_engineers = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	early_fighter = 1
+	cv_early_fighter = 1
+}
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_submarine = 1
+		early_destroyer = 1
+		early_heavy_cruiser = 1
+		transport = 1
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		early_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		early_ship_hull_cruiser = 1
+		basic_battery = 1
+		basic_secondary_battery = 1
+		basic_cruiser_armor_scheme = 1
+		basic_torpedo = 1
+		coastal_defense_ships = 1
+		mtg_transport = 1
+	}
+}
+
+add_ideas = {
+	FED_member_whitecrest
+}
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	democratic = 30
+	fascism = 60
+	communism = 0
+	neutrality = 10
+}
+
+create_country_leader = {
+	name = "Eric Scavenius"
+	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+	picture = "Portrait_Denmark_Erik_Scavenius.dds"
+	expire = "1965.1.1"
+	ideology = socialism
+	traits = {
+		warmonger	}
+}
+
+create_country_leader = {
+	name = "Alex Lassen"
+	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+	picture = "Alex_Lassen.dds"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+		champion_of_peace_1	
+	}
+}
+
+create_country_leader = {
+	name = "Eric Scavenius"
+	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+	picture = "Portrait_Denmark_Erik_Scavenius.dds"
+	expire = "1965.1.1"
+	ideology = rexism
+	traits = {
+		warmonger	}
+}

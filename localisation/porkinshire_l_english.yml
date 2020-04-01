@@ -1,0 +1,23 @@
+﻿l_english:
+ ###PORKINSHIRE###
+
+ #NAMES
+ PRS_ADJ:0 "Porkshirean"
+ PRS_democratic:0 "Porkinshire"
+ PRS_democratic_DEF:0 "the Democratic States of Porkinshire"
+
+ #PARTIES
+ PRS_democratic_party:0 "CHC"
+ PRS_democratic_party_long:0 "Cooperation and Harmony Coalition"
+ PRS_communism_party:0 "SL"
+ PRS_communism_party_long:0 "Solidarity League"
+ PRS_fascism_party:0 "NFA"
+ PRS_fascism_party_long:0 "New Flemish Alliance"
+ PRS_neutrality_party:0 "MAC"
+ PRS_neutrality_party_long:0 "Military Affairs Commission"
+
+ #NATIONAL SPIRITS
+ PRS_golden_age:0 "A Golden Age"
+ PRS_golden_age_desc:0 "Under President Desmet, Porkinshire has flourished spectacularly. High population density, vast industrial complexes, and a willing people have brought a golden age upon the province. May it last long."
+ PRS_nation_divided:0 "A Nation Divided"
+ PRS_nation_divided_desc:0 "Even in a time of great prosperity, tension between the different peoples in the States has always threatened to undermine it. Borians in the north and east, Barstanans in the south and west, Kinlossians in Calais, and Porkshireans in Porkinshire proper all vie for power in our little province."

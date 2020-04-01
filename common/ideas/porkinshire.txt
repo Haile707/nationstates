@@ -1,0 +1,48 @@
+ideas = {
+
+	country = {
+		PRS_nation_divided = {
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = great_depression
+			
+			modifier = {
+				stability_factor = -0.12
+				war_support_factor = -0.35
+				conscription = -0.0075
+			}
+		}
+
+		PRS_golden_age = {
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = great_depression
+			
+			modifier = {
+				conscription = 0.005
+				industrial_capacity_factory = 0.10
+				industrial_capacity_dockyard = 0.10
+				consumer_goods_factor = -0.05
+				stability_factor = 0.01
+			}
+		}
+	}
+}

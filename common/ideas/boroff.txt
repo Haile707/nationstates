@@ -1,0 +1,66 @@
+ideas = {
+
+	country = {
+		BOR_constitutional_centralization = {
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = great_depression
+			
+			modifier = {
+				consumer_goods_factor = 0.05
+				stability_factor = -0.10
+				war_support_factor = -0.15
+			}
+		}
+
+		BOR_conservative_resistance = {
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = great_depression
+			
+			modifier = {
+				stability_factor = -0.20
+				democratic_drift = 0.05
+				political_power_factor = -0.25
+				conscription_factor = -0.05
+			}	
+		}
+
+		BOR_occupation_of_whitecrest = {
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = great_depression
+			
+			modifier = {
+				political_power_factor = -0.05
+				consumer_goods_factor = 0.05
+				conscription_factor = -0.15
+			}	
+		}

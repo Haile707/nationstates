@@ -1,0 +1,93 @@
+focus_tree = {
+	id = whitecrest_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = WIC
+		}
+	}
+
+	focus = { #Assasinate Lassen
+		id = WIC_assasinate_lassen
+		
+		icon = GFX_goal_generic_more_territorial_claims
+
+		ai_will_do = {
+			factor = 1
+		}
+		
+		x = 7
+		y = 0
+		
+		cost = 5
+
+		completion_reward = {
+			WIC = {
+				country_event = whitecrest.1
+			}
+		}
+	}
+
+	focus = { #Moderation	
+		id = WIC_moderation
+		
+		icon = GFX_goal_support_democracy
+
+		ai_will_do = {
+			factor = 1
+		}
+		
+		prerequisite = { focus = WIC_assasinate_lassen }
+		
+		mutually_exclusive = { focus = WIC_restoration }
+		
+		x = -4
+		y = 1
+		relative_position_id = WIC_assasinate_lassen
+		
+		cost = 1
+
+		completion_reward = {
+			set_politics = {
+				ruling_party = democratic
+			}
+			add_popularity = {
+   				ideology = democratic
+    			popularity = 0.1
+			}
+		}
+	}
+
+	focus = { #Restoration
+		id = WIC_restoration
+		
+		icon = GFX_goal_support_fascism
+
+		ai_will_do = {
+			factor = 9
+		}
+		
+		prerequisite = { focus = WIC_assasinate_lassen }
+		
+		mutually_exclusive = { focus = WIC_moderation }
+
+		x = 4
+		y = 1
+		relative_position_id = WIC_assasinate_lassen
+		
+		cost = 1
+
+		completion_reward = {
+			set_politics = {
+				ruling_party = fascism
+			}
+			add_popularity = {
+   				ideology = fascism
+    			popularity = 0.1
+			}
+		}
+	}
+}

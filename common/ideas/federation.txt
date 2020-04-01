@@ -1,0 +1,46 @@
+ideas = {
+
+	country = {
+		FED_member = {
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = great_depression
+			
+			modifier = {
+				ai_join_ally_desire_factor = -1000
+				stability_factor = -0.01
+				ai_call_ally_desire_factor = -1000
+			}
+		}
+
+		FED_member_whitecrest = {
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = great_depression
+			
+			modifier = {
+				ai_join_ally_desire_factor = -1000
+				stability_factor = -0.20
+				ai_call_ally_desire_factor = -1000
+			}
+		}
+	}
+}

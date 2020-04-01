@@ -1,0 +1,23 @@
+﻿l_english:
+ ###BARSTANA###
+
+ #NAMES
+ BAR_ADJ:0 "Barstanan"
+ BAR:0 "Barstana"
+ BAR_democratic_DEF:0 "the Republic of Barstana"
+
+ #PARTIES
+ BAR_neutrality_party:0 "Preimor Dynasty"
+ BAR_neutrality_party_long:0 "Preimor Dynasty"
+ BAR_democratic_party:0 "PCB"
+ BAR_democratic_party_long:0 "People's Choice for Barstana"
+ BAR_communism_party:0 "UnTraCon"
+ BAR_communism_party_long:0 "United Trade Congress"
+ BAR_fascism_party:0 "BRP"
+ BAR_fascism_party_long:0 "Barstana Republican Party"
+
+ #NATIONAL SPIRITS
+ FED_developing_economy:0 "Economic Stagnation" #FED, supposed to be BAR
+ FED_developing_economy_desc:0 "Many decades, being a part of the Empire, Barstana fed numerous other parts of the Empire. Unfair distribution of the resources amongst the Empire lead to the stagnation of the Barstana's production power, often lacking basic manufacturing capabilities , while other parts of the Empire were well over aided."
+ BAR_king_preimor:0 "King Preimor I"
+ BAR_king_preimor_desc:0 "The 'King Preimor', once a king of a fallen empire remind the Barstanan's about their bitter past. Kings presence in the government is not welcomed by many in the Barstana, being a source of the shakes in the masses. It doesn't help that King Preimor I is king in the Republic of Barstana, undermining our legitimacy."

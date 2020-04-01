@@ -1,0 +1,416 @@
+add_namespace = tundraland
+
+country_event = { #Support For the War Dwindles
+	id = tundraland.1
+	title = tundraland.1.t
+	desc = tundraland.1.d
+	picture = GFX_report_event_soviet_army_greeted
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = ICI
+		ICI = {
+			has_war_support < 0.4
+			has_idea = ICI_war_of_resistance
+		}
+	}
+
+	option = {
+		name = tundraland.1.a
+		FIN = { 
+			country_event = { 
+				days = 1 
+				id = tundraland.2 
+			}
+		}
+	}
+}
+
+country_event = { #An Offer of Truce?
+	id = tundraland.2
+	title = tundraland.2.t
+	desc = tundraland.2.d
+	picture = GFX_report_event_soviet_army_greeted
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = tundraland.2.a
+		ai_chance = { factor = 10 }
+		add_stability = 0.05
+		ICI = { 
+			country_event = { 
+				hours = 1 
+				id = tundraland.3
+			}
+		}
+	}
+
+	option = {
+		name = tundraland.2.b
+		ai_chance = { factor = 1 }
+		add_stability = -0.15
+		ICI = { 
+			country_event = { 
+				days = 14
+				id = tundraland.4
+			}
+		}
+	}
+}
+
+country_event = { #The Finns Accept!
+	id = tundraland.3
+	title = tundraland.3.t
+	desc = tundraland.3.d
+	picture = GFX_report_event_soviet_army_greeted
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = tundraland.3.a
+		FIN = {
+			transfer_state = 149
+		}
+		ICI = {
+			remove_ideas = ICI_war_of_resistance
+			add_stability = 0.05
+			white_peace = FIN
+		}
+		hidden_effect = {
+			every_country = { 
+				limit = { 
+					OR = { 
+						has_idea = FED_member 
+						has_idea = FED_member_whitecrest
+					}
+				} 
+
+				news_event = { 
+					id = newstundra.1
+				}
+			}
+
+			ICI = {
+				country_event = {
+					days = 30
+					id = tundraland.5
+				}
+			}
+		}
+	}
+}
+
+country_event = { #The Finns Reject Us!
+	id = tundraland.4
+	title = tundraland.4.t
+	desc = tundraland.4.d
+	picture = GFX_report_event_soviet_army_greeted
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = tundraland.4.a
+		add_war_support = 0.05
+		ICI = {
+			country_event = { id = tundraland.6 days = 5 }
+		}
+		add_stability = -0.10
+	}
+}
+
+country_event = { #AP / NP Coalition Collapses! - AP
+	id = tundraland.5
+	title = tundraland.5.t
+	desc = tundraland.5.d
+	picture = GFX_report_event_soviet_army_greeted
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = tundraland.5.a
+		set_party_name = { 
+    		ideology = fascism 
+    		long_name = ICI_NP_party_long 
+    		name = ICI_NP_party
+		}
+		set_party_name = { 
+    		ideology = democratic
+    		long_name = ICI_AP_party_long
+    		name = ICI_AP_party
+		}
+		add_popularity = {
+			ideology = fascism
+			popularity = -0.30
+		}
+		add_popularity = {
+			ideology = democratic
+			popularity = -0.15
+		}
+		remove_ideas = ICI_hawk_government
+		add_stability = -0.10
+		hidden_effect = {
+			ICI = {
+				country_event = {
+					days = 25
+					id = tundraland.11
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Heil og Sael!
+	id = tundraland.6
+	title = tundraland.6.t
+	desc = tundraland.6.d
+	picture = GFX_report_event_soviet_army_greeted
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = tundraland.6.a
+		swap_ideas = {
+			remove_idea = ICI_war_of_resistance
+			add_idea = ICI_war_of_resistance1
+		}
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.2
+		}
+		country_event = { id = tundraland.8 days = 5}
+		add_stability = -0.05
+	}
+}
+
+country_event = { #Helsinki is Ours!
+	id = tundraland.7
+	title = tundraland.7.t
+	desc = tundraland.7.d
+	picture = GFX_report_event_soviet_army_greeted
+
+	fire_only_once = yes
+
+	trigger = {
+		OR = {
+			FIN = { exists = no }
+			ICI = { num_subjects > 0 }
+		}
+		OR = {
+			has_idea = ICI_war_of_resistance
+			has_idea = ICI_war_of_resistance1
+		}
+	}
+
+	option = {
+		name = tundraland.7.a
+		annex_country = {
+    		target = FIN
+    		transfer_troops = yes
+		}
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.2
+		}
+		hidden_effect = {
+			remove_ideas = ICI_war_of_resistance
+			remove_ideas = ICI_war_of_resistance1
+			every_country = { 
+				limit = { 
+					OR = { 
+						has_idea = FED_member 
+						has_idea = FED_member_whitecrest
+					}
+				} 
+
+				news_event = { 
+					id = newstundra.2
+				}
+			}
+			if = {
+				limit = {
+					ICI = {
+						NOT = {
+							has_idea = ICI_norgespartiet_in_government
+						}
+					}
+				}
+				ICI = {
+					country_event = {
+						days = 30
+						id = tundraland.8
+					}
+				}
+			}
+		}
+	}
+}
+
+country_event = { #AP / NP Coalition Collapses! - NP
+	id = tundraland.8
+	title = tundraland.5.t
+	desc = tundraland.8.d
+	picture = GFX_report_event_soviet_army_greeted
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = tundraland.8.a
+		set_party_name = { 
+    		ideology = fascism 
+    		long_name = ICI_NP_party_long 
+    		name = ICI_NP_party
+		}
+		set_party_name = { 
+    		ideology = democratic
+    		long_name = ICI_AP_party_long
+    		name = ICI_AP_party
+		}
+		swap_ideas = {
+			remove_idea = ICI_hawk_government
+			add_idea = ICI_norgespartiet
+		}
+		add_popularity = {
+			ideology = democratic
+			popularity = -0.12
+		}
+		add_stability = -0.10
+		hidden_effect = {
+			ICI = {
+				country_event = {
+					days = 20
+					id = tundraland.9
+				}
+			}
+		}
+	}
+}
+
+country_event = { # Norgespartiet Government
+	id = tundraland.9
+	title = tundraland.9.t
+	desc = tundraland.9.d
+	picture = GFX_report_event_soviet_army_greeted
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = tundraland.9.a
+		set_politics = {
+			ruling_party = fascism
+		}
+		add_stability = -0.05
+		swap_ideas = {
+			remove_idea = ICI_norgespartiet
+			add_idea = ICI_norgespartiet_in_government
+		}
+		hidden_effect = {
+			ICI = {
+				country_event = {
+					days = 5
+					id = tundraland.10
+				}
+			}
+		}
+	}
+}
+
+country_event = { # Royal Approval
+	id = tundraland.10
+	title = tundraland.10.t
+	desc = tundraland.10.d
+	picture = GFX_report_event_soviet_army_greeted
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = tundraland.10.a
+		add_stability = 0.20
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.15
+		}
+	}
+}
+
+country_event = { # Royal Deliberation
+	id = tundraland.11
+	title = tundraland.11.t
+	desc = tundraland.11.d
+	picture = GFX_report_event_soviet_army_greeted
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = tundraland.11.a
+		set_politics = {
+			ruling_party = neutrality
+			elections_allowed = no
+		}
+		swap_ideas = {
+			add_idea = ICI_king_harald_iii_government
+			remove_idea = ICI_king_harald_iii
+		}
+		hidden_effect = {
+			ICI = {
+				country_event = {
+					days = 5
+					id = tundraland.12
+				}
+			}
+		}
+	}
+}
+
+country_event = { # Another Forsell Government?
+	id = tundraland.12
+	title = tundraland.12.t
+	desc = tundraland.12.d
+	picture = GFX_report_event_soviet_army_greeted
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = tundraland.12.a
+		retire_country_leader = yes
+		set_politics = {
+			ruling_party = neutrality
+			elections_allowed = yes
+		}
+		swap_ideas = {
+			add_idea = ICI_king_harald_iii
+			remove_idea = ICI_king_harald_iii_government
+		}
+		set_party_name = { 
+    		ideology = neutrality
+    		long_name = ICI_KP_AP_party_long 
+    		name = ICI_KP_AP_party
+		}
+		set_party_name = { 
+    		ideology = democratic
+    		long_name = ICI_KP_AP_party_long
+    		name = ICI_KP_AP_party
+		}
+	}
+}

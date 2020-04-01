@@ -1,0 +1,70 @@
+ideas = {
+
+	country = {
+		VIP_bor_trade = {
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = great_depression
+			
+			modifier = {
+				political_power_gain = -0.15
+				neutrality_drift = 0.01
+			}
+            targeted_modifier = {
+                tag = BOR
+                extra_trade_to_target_factor = 0.5
+                trade_cost_for_target_factor = -0.5
+                cic_to_target_factor = 0.50
+            }
+		}
+		VIP_confidence_crisis = {
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = great_depression
+			
+			modifier = {
+				political_power_gain = -1.00
+				fascism_drift = -0.04
+				democratic_drift = 0.04
+			}
+		}
+
+		VIP_imperial_march = {
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = great_depression
+			
+			modifier = {
+				army_defence_factor = 0.10
+				conscription = 0.015
+			}
+		}
+	}
+}

@@ -1,0 +1,158 @@
+ideas = {
+
+	country = {
+
+		ICI_war_of_resistance = {
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = great_depression
+			
+			modifier = {
+				conscription = 0.01
+				war_support_weekly = -0.01
+				stability_factor = -0.05
+			}
+		}
+
+		ICI_war_of_resistance1 = {
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = great_depression
+			
+			modifier = {
+				conscription = 0.02
+				war_support_factor = 0.05
+				stability_factor = 0.05
+			}
+			targeted_modifier = {
+				tag = FIN
+				attack_bonus_against = 0.25
+				defense_bonus_against = 0.25
+			}
+		}
+
+		ICI_hawk_government = {
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = great_depression
+			
+			modifier = {
+				democratic_drift = -0.02
+				war_support_factor = 0.40
+				stability_factor = -0.05
+				political_power_gain = -0.75
+			}
+		}
+
+		ICI_norgespartiet = {
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = great_depression
+			
+			modifier = {
+				fascism_drift = 1
+				war_support_factor = 0.40
+				stability_factor = -0.25
+				political_power_gain = -1.50
+			}
+		}
+
+		ICI_norgespartiet_in_government = {
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = great_depression
+			
+			modifier = {
+				fascism_drift = 0.1
+				war_support_factor = 0.20
+				stability_factor = 0.10
+			}
+		}
+
+
+		ICI_king_harald_iii = {
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = great_depression
+			
+			modifier = {
+				stability_factor = 0.01
+			}
+		}
+
+		ICI_king_harald_iii_government = {
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = great_depression
+			
+			modifier = {
+				stability_factor = 0.05
+				neutrality_drift = 0.01
+				war_support_factor = -0.05
+			}
+		}
+	}
+}

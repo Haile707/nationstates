@@ -1,0 +1,102 @@
+﻿l_english:
+ ###TUNDRALAND###
+ 
+ #NAMES
+ ICI_ADJ:0 "Tundramen"
+ ICI:0 "Tundraland"
+ ICI_DEF:0 "the Kingdom of Tundraland"
+ ICI_communism_DEF:0 "the Republic of Tundraland"
+
+ #PARTIES
+ ICI_democratic_party:0 "AP / NP"
+ ICI_democratic_party_long:0 "Arbeiderpartiet / Norgespartiet"
+ ICI_neutrality_party:0 "KP"
+ ICI_neutrality_party_long:0 "Kongepartiet"
+ ICI_fascism_party:0 "AP / NP"
+ ICI_fascism_party_long:0 "Arbeiderpartiet / Norgespartiet"
+ ICI_communism_party:0 "Rødt"
+ ICI_communism_party_long:0 "Rødt"
+
+ ICI_AP_party:0 "AP"
+ ICI_AP_party_long:0 "Arbeiderpartiet"
+ ICI_NP_party:0 "NP"
+ ICI_NP_party_long:0 "Norgespartiet"
+ ICI_KP_AP_party_long:0 "Arbeiderpartiet / Kongepartiet"
+ ICI_KP_AP_party:0 "AP / KP"
+
+ #NATIONAL SPIRITS
+ ICI_war_of_resistance:0 "Finnish War of Independence"
+ ICI_war_of_resistance_desc:0 "Our eastern provinces have erupted into rebellion. Loyal troops in Finland has been routed, and we have a proper war on our hands. However, our conduct in the East have made us look like the villains and this war grows more unpopular every day.\n\n§YIf war support falls under 40% or the Finns gain the upper hand, we will be forced to sue for peace!"
+ ICI_war_of_resistance1:0 "Finnish War of Independence"
+ ICI_war_of_resistance1_desc:0 "The Finn must be destroyed, pacified, and purged from our lands. They have rejected our entierely reasonable offer for peace, and they will pay the price. Heil og Sael!"
+
+ ICI_hawk_government:0 "Hawkish Government"
+ ICI_hawk_government_desc:0 "Filler"
+ ICI_norgespartiet:0 "Norgespartiet"
+ ICI_norgespartiet_desc:0 "Filler"
+
+ ICI_king_harald_iii:0 "King Harald III"
+ ICI_king_harald_iii_desc:0 "Filler"
+
+ ICI_king_harald_iii_government:0 "King Harald III"
+ ICI_king_harald_iii_government_desc:0 "Filler"
+
+ #EVENTS
+ tundraland.1.t:0 "Support for the War Dwindles"
+ tundraland.1.d:0 "Parties opposed to the war have voiced their discontent loudly ever since it began, but now, with a lack of progress on our side, discontent is rising. Just today, the police were forced to disperse anti-war rioters infront of the Parliament Building.\n\nIn the aftermath, Julius Forsell has decided that this could not go on, and to the opposition of his coalition party, the NP, he has sent an envoy to Helsinki to discuss peace terms."
+ tundraland.1.a:0 "May the news be good"
+
+ tundraland.2.t:0 "An Offer of Truce?"
+ tundraland.2.d:0 "A delegation has arrived from Stockholm on behalf of Julius Forsell's government. They have come to negotiate a peace agreement to end the Independence War.\n\nIt is easy to see why they think we would accept the treaty, for fighting on the front has stalled for the past few days, with little progress either side. However, the delegation's presensce also signals a weakness in the Tundramen government, and although unpopular with both sides, maybe we would want to exploit it?"
+ tundraland.2.a:0 "This cannot go any longer, accept it"
+ tundraland.2.b:0 "They are weak, reject the offer"
+
+ tundraland.3.t:0 "The Finns Accept!"
+ tundraland.3.d:0 "Promising news has come from Helsinki about the proposed peace treaty. It seems that a acceptable treaty has been agreed by both delegations there, and the Finnish government has already signed it. The terms of the treaty are not harsh, we only have to cede Pohjaamaa to the Finns in exchange for peace. All we have to do now is sign it ourselves."
+ tundraland.3.a:0 "To peace!"
+
+ tundraland.4.t:0 "The Finns Reject!"
+ tundraland.4.d:0 "To our great surprise, our delegation in Helsinki was soundly rebuffed by the Finnish government. It appears they have no intentions of making peace with us. Julius Forsell is understandably dismayed, but NP leader Peder Aslaksen senses an opportunity in failure..."
+ tundraland.4.a:0 "They... rejected us?"
+
+ tundraland.5.t:0 "The AP / NP Coalition Collapses"
+ tundraland.5.d:0 "As Arbeiderpartiet began to lose voter's support in the aftermath of the Treaty of Copenhagen, AP has entered into more and more coalitions with unorthodox partners to ensure a majority government. Latest in this curious line of political experiments, the AP / NP Coalition has seen the democratic socialist AP partner with the nationalist Norgespartiet.\n\nThis coalition has been markedly different however. This coalition has been characterized by constant in-fighting by both parties, and in the aftermath of the Treaty of Helsinki, NP Reps have launched into yet another scathing critique of Julius Forsell and the AP. This time, the commoners who observed the Parliament took it into their own hands to physically expel NP Reps from the building. After their expulsion from Parliament, their party HQ, and various party buildings across the country. It is clear that the NP has collapsed, which leaves the AP with no coalition, yet they are a long way from a majority government."
+ tundraland.5.a:0 "The start of something more sinister?"
+
+ tundraland.6.t:0 "Heil og Sael!"
+ tundraland.6.d:0 "A common greeting among the population, and more recently the Norgespartiet motto, cries of Heil og Sael echoed across the country as NP members took to the streets in a massive, organized, nation-wide parade. The largest congregation was at Stockholm, where party leader Peder Aslaksen held a speech in front of thousands. Along with dozens of Reps and minor NP party members speaking across the country, he accomplished a massive PR feat. Now, no longer were the Finns the victims, and us the bullies, but now they were the bullies. They rejected the entirely reasonable offer of PM Julius Forsell and instead chose to wage war against us. The NP rode that propaganda wave, with membership surging by hundreds of thousands. It is clear that the NP is now the largest party in Tundraland, with the Arbeiderpartiet far behind."
+ tundraland.6.a:0 "For King and Country!"
+
+ tundraland.7.t:0 "Helsinki is Ours!"
+ tundraland.7.d:0 "After countless weeks of vicious fighting in forests, cities, and snow, our forces have emerged triumphant. Although at a great cost, we have broken the Finnish Army and the Finnish people, and their capital city, Helsinki is our hands. A Finnish delegation is due in Helsinki today to negotiate a peace, although we very well know it will be on our terms."
+ tundraland.7.a:0 "Heil og Sael!"
+
+ tundraland.8.d:0 "Filler"
+ tundraland.8.a:0 "A new era approaches..."
+
+ tundraland.9.t:0 "Norgespartiet Government"
+ tundraland.9.d:0 "Filler"
+ tundraland.9.a:0 "To a new era!"
+
+ tundraland.10.t:0 "Royal Approval"
+ tundraland.10.d:0 "Filler"
+ tundraland.10.a:0 "Tundraland advances... together!"
+
+ tundraland.11.t:0 "Royal Deliberation"
+ tundraland.11.d:0 "Filler"
+ tundraland.11.a:0 "King Harald is always right..."
+
+ tundraland.12.t:0 "Another Forsell Government?"
+ tundraland.12.d:0 "Filler"
+ tundraland.12.a:0 "A chance to start over..."
+
+ #NEWS
+ newstundra.1.t:0 "The Treaty of Helsinki"
+ newstundra.1.d:0 "Filler"
+ newstundra.1.a:0 "A partial victory..."
+ newstundra.1.b:0 "Peace at last, but at what cost?"
+ newstundra.1.c:0 "The Federation shrinks..."
+
+ newstundra.2.d:0 "Filler"
+ newstundra.2.a:0 "Sweet, sweet victory!"
+ newstundra.2.b:0 "The Federation expands..."

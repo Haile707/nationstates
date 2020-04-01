@@ -1,0 +1,65 @@
+add_namespace = whitecrest
+
+country_event = { #Alex Lassen dies
+	id = whitecrest.1
+	title = whitecrest.1.t
+	desc = whitecrest.1.d
+	picture = GFX_report_event_soviet_army_greeted
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = whitecrest.1.a
+		kill_country_leader = yes
+		hidden_effect = {
+			every_country = { 
+				limit = { 
+					OR = { 
+						has_idea = FED_member 
+						has_idea = FED_member_whitecrest
+					}
+				} 
+
+				news_event = { 
+					hours = 1 
+					id = whitecrest.2 
+				}
+			}
+		}
+	}
+}
+
+news_event = { #News event for Alex Lassen's death
+	id = whitecrest.2
+	title = whitecrest.2.t
+	desc = whitecrest.2.d
+	picture = GFX_news_event_german_speech
+
+	is_triggered_only = yes
+
+	option = {
+		name = whitecrest.2.a
+		trigger = { TAG = WIC }
+	}
+
+	option = {
+		name = whitecrest.2.b
+		trigger = { TAG = BOR }
+	}
+
+	option = {
+		name = whitecrest.2.c
+		trigger = { 
+			AND = {
+				NOT = {
+					OR = { 
+						tag = BOR
+						tag = WIC
+					}
+				}
+
+				has_idea = FED_member
+			}
+		}
+	}
+}

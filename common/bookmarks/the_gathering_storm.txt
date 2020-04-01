@@ -1,0 +1,130 @@
+bookmarks = {
+	bookmark = {
+		name = "GATHERING_STORM_NAME"
+		desc = "GATHERING_STORM_DESC"
+		date = 1936.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "BOR"
+		default = yes
+
+		"BOR"={
+			history = "BOR_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				BOR_conservative_resistance
+				BOR_constitutional_centralization
+				BOR_occupation_of_whitecrest
+			}
+			focuses = {
+				#
+			}
+		}
+
+		"KIN"={
+			history = "KIN_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				KIN_revenge_for_24
+				KIN_federal_continuity
+				KIN_political_turmoil
+			}
+			focuses = {
+				#
+			}
+		}
+
+		"KAU"={
+			history = "KAU_GATHERING_STORM_DESC"
+			ideology = communism
+			ideas = {
+				KAU_home_of_the_revolution
+				KAU_c_rag
+			}
+			focuses = {
+				#
+			}
+		}
+
+		"PRS"={
+			history = "PRS_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				PRS_golden_age
+				PRS_nation_divided
+			}
+			focuses = {
+				#
+			}
+		}
+
+		"AND"={
+			history = "AND_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+				AND_imperial_march
+				AND_confederation_of_guilds
+				AND_overextended_colonialism
+			}
+			focuses = {
+				#
+			}
+		}
+
+		"VIP"={
+			history = "VIP_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+				VIP_bor_trade
+				VIP_confidence_crisis
+				VIP_imperial_march
+			}
+			focuses = {
+				#
+			}
+		}
+
+		"BAR"={
+			history = "BAR_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				FED_developing_economy
+				BAR_king_preimor
+			}
+			focuses = {
+				#
+			}
+		}
+
+		"ICI"={
+			history = "USA_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				ICI_king_harald_iii
+				ICI_war_of_resistance
+				ICI_hawk_government
+			}
+			focuses = {
+				#
+			}
+		}
+
+		"WIC"={
+			minor = yes
+			history = "USA_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				FED_member_whitecrest
+			}
+			focuses = {
+				WIC_assasinate_lassen
+				WIC_moderation
+				WIC_restoration
+			}
+		}
+		
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

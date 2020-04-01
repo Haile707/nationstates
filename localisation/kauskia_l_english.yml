@@ -1,0 +1,23 @@
+﻿l_english:
+ ###KAUSKIA###
+
+ #NAMES
+ KAU_ADJ:0 "Kauskian"
+ KAU:0 "Kauskia"
+ KAU_communism_DEF:0 "the Commune of Kauskia"
+
+ #PARTIES
+ KAU_communism_party:0 "TUC"
+ KAU_communism_party_long:0 "Trade Union Congress"
+ KAU_fascism_party:0 "SLK"
+ KAU_fascism_party_long:0 "Silver Legion Kauskia"
+ KAU_democratic_party:0 "CRAC"
+ KAU_democratic_party_long:0 "Counter-Revolutionary Action Coalition"
+ KAU_neutrality_party:0 "CRAC"
+ KAU_neutrality_party_long:0 "Counter-Revolutionary Action Coalition"
+
+ #NATIONAL SPIRITS
+ KAU_home_of_the_revolution:0 "Home of The Revolution"
+ KAU_home_of_the_revolution_desc:0 "Filler"
+ KAU_c_rag:0 "CRAC"
+ KAU_c_rag_desc:0 "The CRAC, or the Counter-Revolutionary Action Coalition..."

@@ -1,0 +1,28 @@
+﻿l_english:
+ ###KINLOSS###
+
+ #NAMES
+ KIN_ADJ:0 "Kinlossian"
+ KIN:0 "Kinloss"
+ KIN_neutrality_DEF:0 "the Federal Republic of Kinloss"
+ KIN_democratic_DEF:0 "the Federal Republic of Kinloss"
+ KIN_fascism_DEF:0 "the Kingdom of Kinloss"
+ KIN_communism_DEF:0 "the Union of Kinloss"
+
+ #PARTIES
+ KIN_neutrality_party:0 "KCP"
+ KIN_neutrality_party_long:0 "Kinloss Centrist Party"
+ KIN_democratic_party:0 "KDP"
+ KIN_democratic_party_long:0 "Kinloss Democratic Party"
+ KIN_fascism_party:0 "KNL"
+ KIN_fascism_party_long:0 "Kinloss Nationalist Leagues"
+ KIN_communism_party:0 "KWU"
+ KIN_communism_party_long:0 "Kinloss Worker's Union"
+
+ #NATIONAL SPIRITS
+ KIN_revenge_for_24:0 "Revenge for '24"
+ KIN_revenge_for_24_desc:0 "The people of Kinloss are fiercely patriotic, and ever since our independence in 1924, they will do anything for their fatherland. As a result, we have never had a lack of volunteers eager to serve in the Army."
+ KIN_federal_continuity:0 "The Troubles"
+ KIN_federal_continuity_desc:0 "Under Whitecrest, the original Kinlossian province absorbed many lands beyond what is culturally defined as 'Kinloss'. However, even with the implementation of the Federal Constitution, these lands remain opposed to our rule, and our administrators have a hard time of understanding local concerns, needs, and traditions. No where is this more obvious than in Ireland."
+ KIN_political_turmoil:0 "Political Turmoil"
+ KIN_political_turmoil_desc:0 "The Koellner Clique has always held strong power over all three branches of government, which allowed Koellner to begin to implement his dream of a Federal Republic. However, his control of the KCP has waned of late, and more and more policy-makers begin to oppose Koellner. Only time will tell if he remains in power."

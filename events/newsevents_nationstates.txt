@@ -2,6 +2,8 @@ add_namespace = newstundra
 add_namespace = newswhite
 add_namespace = newsbor
 
+###TUNDRALAND###
+
 news_event = { #Treaty of Helsinki - Draw
 	id = newstundra.1
 	title = newstundra.1.t
@@ -53,6 +55,40 @@ news_event = { #Treaty of Helsinki - Draw
 
 	option = {
 		name = newstundra.2.b
+		trigger = { 
+			NOT = {
+				TAG = ICI
+			}
+			OR = {
+				has_idea = FED_member
+				TAG = WIC
+			}
+		}
+	}
+}
+
+news_event = { #Treaty of Helsinki - Draw
+	id = newstundra.3
+	title = newstundra.1.t
+	desc = newstundra.3.d
+	picture = GFX_report_event_soviet_army_greeted
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = newstundra.3.a
+		trigger = { TAG = FIN }
+	}
+
+	option = {
+		name = newstundra.3.b
+		trigger = { TAG = ICI }
+	}
+
+	option = {
+		name = newstundra.1.c
 		trigger = { 
 			NOT = {
 				TAG = ICI

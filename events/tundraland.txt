@@ -415,7 +415,7 @@ country_event = { # Another Forsell Government?
 	}
 }
 
-country_event = {
+country_event = { #Our Armies Lie Shattered
 	id = tundraland.13
 	title = tundraland.13.t
 	desc = tundraland.13.d
@@ -433,11 +433,20 @@ country_event = {
 		}
 	}
 
-	option = {
+	option = { 
 		name = tundraland.13.a
 		ICI = {
-			white_peace
+			white_peace = FIN
 			add_stability = -0.25
+			remove_ideas = ICI_war_of_resistance
+			add_popularity = {
+				ideology = fascism
+				popularity = -0.15
+			}
+			add_popularity = {
+				ideology = democratic
+				popularity = -0.15
+			}
 		}
 		FIN = {
 			transfer_state = 149
@@ -455,15 +464,93 @@ country_event = {
 				} 
 
 				news_event = { 
-					id = newstundra.1
+					id = newstundra.3
 				}
 			}
 			ICI = {
-				country_event = { id = tundraland.14 days = 10 }
+				country_event = { id = tundraland.15 days = 5 }
 			}
 			FIN = {
-				country_event = { id = tundraland.15 }
+				country_event = { id = tundraland.14 }
 			}
 		}
+	}
+}
+
+country_event = { #Victory for Freedom!
+	id = tundraland.14
+	title = tundraland.14.t
+	desc = tundraland.14.d
+	picture = GFX_report_event_soviet_army_greeted
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = tundraland.14.a
+		add_stability = 0.1
+		add_war_support = 0.1
+	}
+
+}
+
+country_event = { #The Darkest Day
+	id = tundraland.15
+	title = tundraland.15.t
+	desc = tundraland.15.d
+	picture = GFX_report_event_soviet_army_greeted
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = tundraland.15.a
+		add_stability = -0.1
+		add_war_support = -0.2
+		remove_ideas = ICI_hawk_government
+		add_popularity = {
+			ideology = fascism
+			popularity = -0.50
+		}
+		set_party_name = { 
+    		ideology = fascism 
+    		long_name = ICI_NP_party_long 
+    		name = ICI_NP_party
+		}
+		set_party_name = { 
+    		ideology = democratic
+    		long_name = ICI_AP_party_long
+    		name = ICI_AP_party
+		}
+		110 = { add_manpower = -2500 }
+		141 = { add_manpower = -3000 }
+		hidden_effect = {
+			ICI = {
+				country_event = { id = tundraland.16 days = 1 }
+			}
+		}
+	}
+}
+
+country_event = { #Julius Forsell Resigns!
+	id = tundraland.16
+	title = tundraland.16.t
+	desc = tundraland.16.d
+	picture = GFX_report_event_soviet_army_greeted
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = tundraland.16.a
+		retire_country_leader = yes
+		add_popularity = {
+			ideology = democratic
+			popularity = -0.15
+		}
+		add_stability = -0.1
 	}
 }

@@ -112,7 +112,7 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Cristmas Moller"
+	name = "John Moller"
 #	desc = "werner_biermann_desc"
 	picture = "Portrait_Denmark_Christmas_Moller.tga"
 	expire = "1965.1.1"

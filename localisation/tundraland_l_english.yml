@@ -90,6 +90,22 @@
  tundraland.12.d:0 "Filler"
  tundraland.12.a:0 "A chance to start over..."
 
+ tundraland.13.t:0 "Our Armies Lie Shattered"
+ tundraland.13.d:0 "Filler"
+ tundraland.13.a:0 "Heil og... Sael?"
+
+ tundraland.14.t:0 "Victory for Freedom!"
+ tundraland.14.d:0 "After years of oppression, we have finally shown our overlords what it's like to be under a foreign boot. We have cast off our shackles, and we are ready to ascend to world stage once again. Finland stands victorius."
+ tundraland.14.a:0 "Truly, a triumph years in the making"
+
+ tundraland.15.t:0 "The Darkest Day"
+ tundraland.15.d:0 "Filler"
+ tundraland.15.a:0 "We grieve for the dead"
+
+ tundraland.16.t:0 "Julius Forsell Resigns"
+ tundraland.16.d:0 "Filler"
+ tundraland.16.a:0 "Not you too..."
+
  #NEWS
  newstundra.1.t:0 "The Treaty of Helsinki"
  newstundra.1.d:0 "Filler"
@@ -100,3 +116,7 @@
  newstundra.2.d:0 "Filler"
  newstundra.2.a:0 "Sweet, sweet victory!"
  newstundra.2.b:0 "The Federation expands..."
+
+ newstundra.3.d:0 "Filler"
+ newstundra.3.a:0 "Tundraland was never destined for the world stage..."
+ newstundra.3.b:0 "Finland returns to the brotherhood of nations"

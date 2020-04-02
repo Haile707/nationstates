@@ -71,17 +71,18 @@ set_popularities = {
 create_country_leader = {
 	name = "Eric Scavenius"
 	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
-	picture = "Portrait_Denmark_Erik_Scavenius.dds"
+	picture = "Portrait_Denmark_Knud_Kristensen.tga"
 	expire = "1965.1.1"
 	ideology = socialism
 	traits = {
-		warmonger	}
+		warmonger	
+	}
 }
 
 create_country_leader = {
 	name = "Alex Lassen"
 	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
-	picture = "Alex_Lassen.dds"
+	picture = "Portrait_Denmark_Aksel_Larsen.tga"
 	expire = "1965.1.1"
 	ideology = liberalism
 	traits = {
@@ -92,9 +93,10 @@ create_country_leader = {
 create_country_leader = {
 	name = "Eric Scavenius"
 	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
-	picture = "Portrait_Denmark_Erik_Scavenius.dds"
+	picture = "Portrait_Denmark_Knud_Kristensen.tga"
 	expire = "1965.1.1"
 	ideology = rexism
 	traits = {
-		warmonger	}
+		warmonger	
+	}
 }

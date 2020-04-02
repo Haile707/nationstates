@@ -112,6 +112,17 @@ set_popularities = {
 }
 
 create_country_leader = {
+	name = "Cristmas Moller"
+#	desc = "werner_biermann_desc"
+	picture = "Portrait_Denmark_Christmas_Moller.tga"
+	expire = "1965.1.1"
+	ideology = socialism
+	traits = {
+		stammer
+	}
+}
+
+create_country_leader = {
 	name = "Julius Forssell"
 #	desc = "werner_biermann_desc"
 	picture = "Portrait_Sweden_Carl_Lindhagen.tga"

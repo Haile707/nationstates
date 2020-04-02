@@ -414,3 +414,56 @@ country_event = { # Another Forsell Government?
 		}
 	}
 }
+
+country_event = {
+	id = tundraland.13
+	title = tundraland.13.t
+	desc = tundraland.13.d
+	picture = GFX_report_event_soviet_army_greeted
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = ICI
+		ICI = {
+			has_idea = ICI_war_of_resistance
+		}
+		FIN = {
+			#
+		}
+	}
+
+	option = {
+		name = tundraland.13.a
+		ICI = {
+			white_peace
+			add_stability = -0.25
+		}
+		FIN = {
+			transfer_state = 149
+			transfer_state = 148
+			transfer_state = 147
+			transfer_state = 722
+		}
+		hidden_effect = {
+			every_country = { 
+				limit = { 
+					OR = { 
+						has_idea = FED_member 
+						has_idea = FED_member_whitecrest
+					}
+				} 
+
+				news_event = { 
+					id = newstundra.1
+				}
+			}
+			ICI = {
+				country_event = { id = tundraland.14 days = 10 }
+			}
+			FIN = {
+				country_event = { id = tundraland.15 }
+			}
+		}
+	}
+}

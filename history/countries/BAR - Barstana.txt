@@ -34,6 +34,7 @@ add_ideas = {
 	FED_member
 	BAR_king_preimor
 	FED_developing_economy
+	BAR_KIN_naval_arms_race
 }
 
 add_ai_strategy = {

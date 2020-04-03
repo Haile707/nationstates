@@ -116,6 +116,7 @@ add_ideas = {
 	KIN_revenge_for_24
 	KIN_federal_continuity
 	KIN_political_turmoil
+	BAR_KIN_naval_arms_race
 }
 
 add_ai_strategy = {

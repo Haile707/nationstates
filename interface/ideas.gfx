@@ -4614,4 +4614,9 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_george_vi.dds"
 	}
 
+	spriteType = {
+		name = "GFX_idea_BAR_KIN_naval_arms_race"
+		texturefile = "gfx/interface/ideas/AST_oversized_fleet.dds"
+	}
+
 }

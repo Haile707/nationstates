@@ -42,5 +42,26 @@ ideas = {
 				ai_call_ally_desire_factor = -1000
 			}
 		}
+
+		BAR_KIN_naval_arms_race = {
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = great_depression
+			
+			modifier = {
+				consumer_goods_factor = 0.12
+				industrial_capacity_factory = -0.15
+				industrial_capacity_dockyard = 0.15
+			}
+		}
 	}
 }

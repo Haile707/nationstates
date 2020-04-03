@@ -309,7 +309,7 @@ country_event = { # Norgespartiet Government
 
 	is_triggered_only = yes
 
-	option = {
+	option = { #TO ADD: FOCUS UNLOCK
 		name = tundraland.9.a
 		set_politics = {
 			ruling_party = fascism
@@ -360,7 +360,7 @@ country_event = { # Royal Deliberation
 
 	is_triggered_only = yes
 
-	option = {
+	option = { #TO ADD: FOCUS UNLOCK
 		name = tundraland.11.a
 		set_politics = {
 			ruling_party = neutrality
@@ -468,7 +468,7 @@ country_event = { #Our Armies Lie Shattered
 				}
 			}
 			ICI = {
-				country_event = { id = tundraland.15 days = 5 }
+				country_event = { id = tundraland.15 days = 10 }
 			}
 			FIN = {
 				country_event = { id = tundraland.14 }
@@ -512,7 +512,7 @@ country_event = { #The Darkest Day
 		remove_ideas = ICI_hawk_government
 		add_popularity = {
 			ideology = fascism
-			popularity = -0.50
+			popularity = -0.30
 		}
 		set_party_name = { 
     		ideology = fascism 
@@ -552,5 +552,72 @@ country_event = { #Julius Forsell Resigns!
 			popularity = -0.15
 		}
 		add_stability = -0.1
+		hidden_effect = {
+			ICI = {
+				country_event = { id = tundraland.17 days = 7 }
+			}
+		}
+	}
+}
+
+country_event = { #Royal Coup
+	id = tundraland.17
+	title = tundraland.17.t
+	desc = tundraland.17.d
+	picture = GFX_report_event_soviet_army_greeted
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = { #TO ADD: FOCUS UNLOCK
+		name = tundraland.17.a
+		add_stability = -0.05
+		set_politics = {
+			ruling_party = neutrality
+			elections_allowed = no
+		}
+		swap_ideas = {
+			add_idea = ICI_king_harald_iii_government
+			remove_idea = ICI_king_harald_iii
+		}
+		hidden_effect = {
+			ICI = {
+				country_event = { id = tundraland.18 days = 7 }
+			}
+			38 = { set_demilitarized_zone = yes }
+			140 = { set_demilitarized_zone = yes }
+			139 = { set_demilitarized_zone = yes }
+			138 = { set_demilitarized_zone = yes }
+			124 = { set_demilitarized_zone = yes }
+			110 = { set_demilitarized_zone = yes }
+			142 = { set_demilitarized_zone = yes }
+			143 = { set_demilitarized_zone = yes }
+			144 = { set_demilitarized_zone = yes }
+			666 = { set_demilitarized_zone = yes }
+		}
+	}
+}
+
+country_event = { #The King's Speech
+	id = tundraland.18
+	title = tundraland.18.t
+	desc = tundraland.18.d
+	picture = GFX_report_event_soviet_army_greeted
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = tundraland.18.a
+		add_stability = 0.075
+		add_popularity = {
+			ideology = neutrality
+			popularity = 0.15
+		}
+		hidden_effect = {
+			38 = { set_demilitarized_zone = no }
+		}
 	}
 }

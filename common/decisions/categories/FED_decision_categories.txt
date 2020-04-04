@@ -1,0 +1,7 @@
+BAR_KIN_naval_arms_race_decision = {
+	icon = power_struggle
+	picture = GFX_decision_cat_picture_ger_case_anton
+	visible = {
+		has_idea = BAR_KIN_naval_arms_race
+	}
+}

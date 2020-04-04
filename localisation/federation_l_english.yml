@@ -9,3 +9,25 @@
  
  BAR_KIN_naval_arms_race:0 "Naval Arms Race"
  BAR_KIN_naval_arms_race_desc:0 "As the provinces bordering the vast Atlantic and (and in the case of Barstana) the Mediterranean Sea, Kinloss and Barstana have both recieved massive investment from Whitecrest for their naval capacity, and most of the Imperial fleet was stationed in these two provinces when the Empire collapsed. As much of burden these fleets may be, their very existence created a protracted arms race between Kinloss and Barstana. The emphasis on naval affairs does mean that other matters take second priority."
+
+ #DECISIONS
+ BAR_KIN_naval_arms_race_decision:0 "Naval Arms Race"
+ BAR_KIN_naval_arms_race_decision_desc:0 "As time passes on, the enemy's naval capacity will most definetely eclipse ours unless we take a proactive stance in regards to our navy."
+
+ more_research:0 "Fund More Research"
+ more_research_desc:0 "Filler"
+
+ naval_exercise:0 "Authorise Naval Exercises"
+ naval_exercise_desc:0 "Filler"
+
+ conscript_workers:0 "Divert Resources"
+ conscript_workers_desc:0 "Filler"
+
+ more_dockyards:0 "Construct Dockyards"
+ more_dockyards_desc:0 "Filler"
+
+ construct_ports:0 "Construct Naval Bases"
+ construct_ports_desc:0 "Filler"
+
+ end_the_race:0 "End The Race"
+ end_the_race_desc:0 "Filler"

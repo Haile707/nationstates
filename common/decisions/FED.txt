@@ -1,6 +1,5 @@
 BAR_KIN_naval_arms_race_decision = {
 
-
 	more_research = {
 		cost = 25
 		fire_only_once = yes
@@ -61,33 +60,271 @@ BAR_KIN_naval_arms_race_decision = {
 		}
 	}
 
-	construct_ports = {
+	###BARSTANA###
+
+	construct_ports_barstana = {
 		cost = 75
 		fire_only_once = yes
 		days_remove = 180
 		ai_will_do = {
 			factor = 1
 		}
+		fixed_random_seed = no
+		visible = {
+			TAG = BAR
+		}
+		available = {
+			controls_state = 23
+			controls_state = 19
+		}
 		remove_effect = {
-			random_owned_state = {
-				limit = {
-					any_province_building_level = {
-   						province = {
-       	 					is_coastal = yes
-    					}
-    					building = naval_base
-    					level < 1
-					}					
+			random_list = {
+				50 = {
+					19 = {
+						add_building_construction = {
+  							type = naval_base
+    						level = 2
+    						instant_build = yes
+    						province = 9737
+						}
+					}
 				}
-				add_building_construction = {
-    				type = naval_base 
-    				level = 2
-    				instant_build = yes
-    				province = PREV.PREV
+				50 = {
+					23 = {
+						add_building_construction = {
+  							type = naval_base
+    						level = 2
+    						instant_build = yes
+    						province = 6657
+						}
+					}
 				}
 			}
 		}
 	}
+
+	construct_ports_brest = {
+		cost = 75
+		fire_only_once = yes
+		days_remove = 180
+		ai_will_do = {
+			factor = 1
+		}
+		visible = {
+			TAG = BAR
+		}
+		available = {
+			controls_state = 14
+		}
+		fixed_random_seed = no
+		remove_effect = {
+			random_list = {
+				33 = {
+					14 = {
+						add_building_construction = {
+  							type = naval_base
+    						level = 2
+    						instant_build = yes
+    						province = 6536
+						}
+					}
+				}
+				33 = {
+					14 = {
+						add_building_construction = {
+  							type = naval_base
+    						level = 2
+    						instant_build = yes
+    						province = 9510
+						}
+					}
+				}
+				33 = {
+					14 = {
+						add_building_construction = {
+  							type = naval_base
+    						level = 2
+    						instant_build = yes
+    						province = 3552
+						}
+					}
+				}
+			}
+		}
+	}
+
+	construct_ports_normandy = {
+		cost = 75
+		fire_only_once = yes
+		days_remove = 180
+		ai_will_do = {
+			factor = 1
+		}
+		visible = {
+			TAG = BAR
+		}
+		available = {
+			controls_state = 15
+		}
+		remove_effect = {
+			random_list = {
+				33 = {
+					15 = {
+						add_building_construction = {
+  							type = naval_base
+    						level = 2
+    						instant_build = yes
+    						province = 6449
+						}
+					}
+				}
+				33 = {
+					15 = {
+						add_building_construction = {
+  							type = naval_base
+    						level = 2
+    						instant_build = yes
+    						province = 9434
+						}
+					}
+				}
+				33 = {
+					15 = {
+						add_building_construction = {
+  							type = naval_base
+    						level = 2
+    						instant_build = yes
+    						province = 485
+						}
+					}
+				}
+			}
+		}
+	}
+
+	construct_ports_southern_ports = {
+		cost = 75
+		fire_only_once = yes
+		days_remove = 180
+		ai_will_do = {
+			factor = 1
+		}
+		visible = {
+			TAG = BAR
+		}
+		available = {
+			controls_state = 22
+			controls_state = 31
+			controls_state = 177
+		}
+		remove_effect = {
+			random_list = {
+				33 = {
+					22 = {
+						add_building_construction = {
+  							type = naval_base
+    						level = 2
+    						instant_build = yes
+    						province = 9898
+						}
+					}
+				}
+				33 = {
+					31 = {
+						add_building_construction = {
+  							type = naval_base
+    						level = 2
+    						instant_build = yes
+    						province = 9853
+						}
+					}
+				}
+				33 = {
+					177 = {
+						add_building_construction = {
+  							type = naval_base
+    						level = 2
+    						instant_build = yes
+    						province = 9793
+						}
+					}
+				}
+			}
+		}
+	}
+
+	###KINLOSS###
+
+	construct_ports_scapa_flow = {
+		cost = 75
+		fire_only_once = yes
+		days_remove = 180
+		ai_will_do = {
+			factor = 1
+		}
+		visible = {
+			TAG = KIN
+		}
+		available = {
+			controls_state = 
+		}
+		remove_effect = {
+			add_building_construction = {
+  				type = naval_base
+    			level = 2
+    			instant_build = yes
+    			province = 
+			}
+		}
+	}
+
+	construct_ports_portsmouth = {
+		cost = 75
+		fire_only_once = yes
+		days_remove = 180
+		ai_will_do = {
+			factor = 1
+		}
+		visible = {
+			TAG = KIN
+		}
+		available = {
+			controls_state = 
+		}
+		remove_effect = {
+			add_building_construction = {
+  				type = naval_base
+    			level = 2
+    			instant_build = yes
+    			province = 
+			}
+		}
+	}
+
+	construct_ports_blucjend = {
+		cost = 75
+		fire_only_once = yes
+		days_remove = 180
+		ai_will_do = {
+			factor = 1
+		}
+		visible = {
+			TAG = KIN
+		}
+		available = {
+			controls_state = 
+		}
+		remove_effect = {
+			add_building_construction = {
+  				type = naval_base
+    			level = 2
+    			instant_build = yes
+    			province = 
+			}
+		}
+	}
+
+	###END###
 
 	end_the_race = {
 		cost = 100

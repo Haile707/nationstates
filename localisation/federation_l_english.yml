@@ -26,8 +26,10 @@
  more_dockyards:0 "Construct Dockyards"
  more_dockyards_desc:0 "Filler"
 
- construct_ports:0 "Construct Naval Bases"
- construct_ports_desc:0 "Filler"
+ construct_ports_barstana:0 "Atlantic Ports"
+ construct_ports_brest:0 "Brenton Ports"
+ construct_ports_normandy:0 "Norman Ports"
+ construct_ports_southern_ports:0 "Mediterranean Ports"
 
  end_the_race:0 "End The Race"
  end_the_race_desc:0 "Filler"

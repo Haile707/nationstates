@@ -4616,7 +4616,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_idea_BAR_KIN_naval_arms_race"
-		texturefile = "gfx/interface/ideas/AST_oversized_fleet.dds"
+		texturefile = "gfx/interface/ideas/AST_oversized_fleet.tga"
 	}
 
 }

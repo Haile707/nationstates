@@ -32,6 +32,12 @@
  construct_ports_la_rochelle:0 "Invest in La Rochelle"
  construct_ports_montpellier:0 "Construct New Ports"
  construct_ports_balearic_island:0 "Invest in Palma de Mallorca"
+ construct_ports_hull:0 "Invest in Hullern"
+ construct_ports_liverpool:0 "Invest in Lauvernpool"
+ construct_ports_norwich:0 "Invest in Norvich"
+ construct_ports_southern_ports:0 "Expand Channel Ports"
+ construct_ports_bristol_channel:0 "Interest in the Bristol Channel"
+ construct_ports_northern_ports:0 "Refurbish the Northern Ports"
 
  end_the_race:0 "End The Race"
  end_the_race_desc:0 "Filler"

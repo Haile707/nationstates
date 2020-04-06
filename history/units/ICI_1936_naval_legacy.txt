@@ -111,7 +111,6 @@ instant_effect = {
 		equipment = {
 			type = submarine_1
 			creator = "ICI"
-			version_name = "Draken Class"
 		}
 		requested_factories = 2
 		progress = 0.80
@@ -121,7 +120,6 @@ instant_effect = {
 		equipment = {
 			type = submarine_1
 			creator = "ICI"
-			version_name = "Draken Class"
 		}
 		requested_factories = 1
 		progress = 0.60

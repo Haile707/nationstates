@@ -38,7 +38,7 @@ news_event = { #Treaty of Helsinki - Draw
 	}
 }
 
-news_event = { #Treaty of Helsinki - Draw
+news_event = { #Treaty of Helsinki - Tundramen Victory
 	id = newstundra.2
 	title = newstundra.1.t
 	desc = newstundra.2.d
@@ -67,7 +67,7 @@ news_event = { #Treaty of Helsinki - Draw
 	}
 }
 
-news_event = { #Treaty of Helsinki - Draw
+news_event = { #Treaty of Helsinki - Finnish Victory
 	id = newstundra.3
 	title = newstundra.1.t
 	desc = newstundra.3.d

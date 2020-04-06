@@ -26,3 +26,17 @@
  KIN_federal_continuity_desc:0 "Under Whitecrest, the original Kinlossian province absorbed many lands beyond what is culturally defined as 'Kinloss'. However, even with the implementation of the Federal Constitution, these lands remain opposed to our rule, and our administrators have a hard time of understanding local concerns, needs, and traditions. No where is this more obvious than in Ireland."
  KIN_political_turmoil:0 "Political Turmoil"
  KIN_political_turmoil_desc:0 "The Koellner Clique has always held strong power over all three branches of government, which allowed Koellner to begin to implement his dream of a Federal Republic. However, his control of the KCP has waned of late, and more and more policy-makers begin to oppose Koellner. Only time will tell if he remains in power."
+
+ #TECHNOLOGIES
+ KIN_infantry_equipment_0:0 "Gewehr M1922"
+ KIN_infantry_equipment_0_short:0 "Gewehr M1922"
+ KIN_infantry_equipment_0_desc:0 "The first true Kinlossian rifle, the gun was designed by Kinlossian engineers in the months leading up to the Emancipation following rising tensions, and mass produced by native factories during the Emancipation. It features a revolutionary Straight-pull bolt decreasing the cycle time, manufacturing time, and increased reliability."
+ KIN_infantry_equipment_1:0 "Selbstlader M1936"
+ KIN_infantry_equipment_1_short:0 "Selbstlader M1936"
+ KIN_infantry_equipment_1_desc:0 "An upgrade from the M1922, the gun shares some similarities with it’s predecessor, most notably the calibre. It is a self-loading 7-round rifle, increasing the fire-rate of an average Kinlossian soldier, and is currently replacing the 1922 rifle. The gun is seen as an alright replacement for the M1922, however recent developments in doctrine across the world have cause many to ponder if the rifle is sufficient enough to withstand a potential conflict."
+ KIN_infantry_equipment_2:0 "Maschinenpistole MP39/1"
+ KIN_infantry_equipment_2_short:0 "MP39"
+ KIN_infantry_equipment_2_desc:0 "The MP39, despite the official designation, was actually designed in 1937 by a tanker the the armoured corp, but needed several revisions before being adopted in 1939. It was designed quickly as a response to the increasing need to firepower, and the diminishing influence of the tradition rifle of the old. It features an all-metal construction, 30 round box magazine, has an RPM of 650 rounds per minute, and can be easily mass produced."
+ KIN_infantry_equipment_3:0 "Sturmgewehr StG1943"
+ KIN_infantry_equipment_3_short:0 "StG 43"
+ KIN_infantry_equipment_3_desc:0 "Designed in 1943, the rifle is a cross between a standard rifle and a submachinegun, firing a cartridge slightly smaller than a traditional rifle round, but packs more of a punch than an SMG. Although it does have a slightly slow RPM of 570 rounds per minute, many have praised its idea and usage, with many calling it a Sturmgewehr or assault rifle, giving it a unusual designation."

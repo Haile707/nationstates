@@ -40,3 +40,7 @@
  KIN_infantry_equipment_3:0 "Sturmgewehr StG1943"
  KIN_infantry_equipment_3_short:0 "StG 43"
  KIN_infantry_equipment_3_desc:0 "Designed in 1943, the rifle is a cross between a standard rifle and a submachinegun, firing a cartridge slightly smaller than a traditional rifle round, but packs more of a punch than an SMG. Although it does have a slightly slow RPM of 570 rounds per minute, many have praised its idea and usage, with many calling it a Sturmgewehr or assault rifle, giving it a unusual designation."
+
+ motorized_equipment_1:0 "Mehrzweckfahrzeug 20/1200"
+ motorized_equipment_1_short:0 "MWFZ 20/1200"
+ motorized_equipment_1_desc:0 "A specially designed multi-purpose vehicle for the Kinlossian military, the vehicle was designed for multiple purposes, such as carrying supplies, towing artillery, a radio post, and troop carrying. This particular sub varient boasts a MG36 in a shielded mount, and a capacity of twenty soldiers, or space for around 1200KG worth of supplies."

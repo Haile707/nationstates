@@ -31,3 +31,31 @@
  #LEADER DESCRIPTIONS
  werner_biermann_desc:0 "§YGeneral Description\n§YBorn:§W 18th of April, 1902, in Bremerhaven, Bremen, the Federal Republic of Boroff\n\n§YPersonal Life:§W Born to a no-name lower-class family, Werner Biermann was simply one of the many destitute children wandering the streets. His destiny seemed to be that of his father, a dockyard worker. By pure chance, he met the renowned Borian philosopher [TBD], who saw something in the young child. He paid for his education, and Biermann did not let him down. He was thrust into the national limelight when he won the coveted Imperial Scholarship.\n\n1"
  jurian_koch_desc:0 "§YGeneral Description\n§YBorn:§W 21st of May, 1895, in Birmingham, West Midlands, the Federal Republic of Kinloss\n\n§YPersonal Life:§W Born to the influential Koch family, Jurian is the brother of the famous Kinlossian politician, Johannes Koch. Where Johannes decided to stay in Kinloss, Jurian was offered a post in the provincial Borian Army. When the War of Independence broke out in 1924, he was on the front lines of the conflict."
+
+ #NATIONAL FOCUS
+ BOR_seven_point_manifesto:0 "The Seven Point Manifesto"
+ BOR_seven_point_manifesto_desc:0 "Filler"
+
+ BOR_safety_welfare_happiness:0 "Safety, Welfare, and Happiness"
+ BOR_safety_welfare_happiness_desc:0 "Filler"
+
+ BOR_precaution_strength:0 "Precation and Strength"
+ BOR_precaution_strength_desc:0 "Filler"
+
+ BOR_future_history_agency:0 "The Future History Agency"
+ BOR_future_history_agency_desc:0 "Filler"
+
+ BOR_armed_forces_base:0 "The Armed Forces"
+ BOR_armed_forces_base_desc:0 "Filler"
+
+ BOR_prosperity_growth:0 "Prosperity and Growth"
+ BOR_prosperity_growth_desc:0 "Filler"
+
+ BOR_economic_development_plan:0 "The Economic Development Plan"
+ BOR_economic_development_plan_desc:0 "Filler"
+
+ BOR_subsidise_arms_industry:0 "Subsidies for the Arms Industry"
+ BOR_subsidise_arms_industry_desc:0 "Filler"
+
+ BOR_nationalize_industry:0 "Nationalize Industry"
+ BOR_nationalize_industry_desc:0 "Filler"

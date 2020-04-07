@@ -59,12 +59,12 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "George Brown"
+	name = "Trade Union Congress"
 	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
-	picture = "George_Brown.dds"
+	picture = "TUC.tga"
 	expire = "1965.1.1"
 	ideology = anarchist_communism
 	traits = {
-		exiled_revolutionary
+		cabinet_crisis
 	}
 }

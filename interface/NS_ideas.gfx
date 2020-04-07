@@ -1,0 +1,144 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_idea_BOR_constitutional_centralization"
+		texturefile = "gfx/interface/ideas/idea_sour_loser.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_BOR_conservative_resistance"
+		texturefile = "gfx/interface/ideas/idea_rom_carol_ii_hedonist.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_BOR_occupation_of_whitecrest"
+		texturefile = "gfx/interface/ideas/idea_generic_oppression.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_FED_member"
+		texturefile = "gfx/interface/ideas/idea_hun_treaty_of_trianon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_FED_member_whitecrest"
+		texturefile = "gfx/interface/ideas/idea_hun_treaty_of_trianon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_KIN_revenge_for_24"
+		texturefile = "gfx/interface/ideas/the_war_to_end_all_wars.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_KIN_federal_continuity"
+		texturefile = "gfx/interface/ideas/FRA_scw_intervention_republicans_focus.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_KIN_political_turmoil"
+		texturefile = "gfx/interface/ideas/generic_disjointed_gov.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_FED_developing_economy"
+		texturefile = "gfx/interface/ideas/idea_chi_hyper_inflation.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PRS_golden_age"
+		texturefile = "gfx/interface/ideas/generic_victors_of_ww1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PRS_nation_divided"
+		texturefile = "gfx/interface/ideas/idea_chi_army_corruption.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_VIP_bor_trade"
+		texturefile = "gfx/interface/ideas/idea_can_wartime_prices_and_trade_board.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_VIP_confidence_crisis"
+		texturefile = "gfx/interface/ideas/idea_eng_tackle_capitalism.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_VIP_imperial_march"
+		texturefile = "gfx/interface/ideas/idea_eng_service_overseas.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_AND_imperial_march"
+		texturefile = "gfx/interface/ideas/idea_mex_revolutionary_army.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_AND_confederation_of_guilds"
+		texturefile = "gfx/interface/ideas/idea_eng_the_kings_party.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_AND_overextended_colonialism"
+		texturefile = "gfx/interface/ideas/idea_hol_liberation.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_KAU_home_of_the_revolution"
+		texturefile = "gfx/interface/ideas/home_of_the_revolution.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_KAU_c_rag"
+		texturefile = "gfx/interface/ideas/idea_hun_secret_rearmament.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ICI_war_of_resistance"
+		texturefile = "gfx/interface/ideas/idea_tfv_can_conscription_crisis.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ICI_war_of_resistance1"
+		texturefile = "gfx/interface/ideas/idea_tfv_can_conscription_crisis.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_idea_ICI_hawk_government"
+		texturefile = "gfx/interface/ideas/idea_mex_politicised_army.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ICI_norgespartiet"
+		texturefile = "gfx/interface/ideas/anti_soviet_pact.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ICI_norgespartiet_in_government"
+		texturefile = "gfx/interface/ideas/idea_ast_abandon_the_westminster_system_fascism.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_BAR_king_preimor"
+		texturefile = "gfx/interface/ideas/idea_victor_emmanuel.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ICI_king_harald_iii"
+		texturefile = "gfx/interface/ideas/idea_george_vi.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ICI_king_harald_iii_government"
+		texturefile = "gfx/interface/ideas/idea_george_vi.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_BAR_KIN_naval_arms_race"
+		texturefile = "gfx/interface/ideas/AST_oversized_fleet.tga"
+	}
+
+}

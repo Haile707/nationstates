@@ -88,6 +88,7 @@ country_event = { #The Finns Accept!
 					OR = { 
 						has_idea = FED_member 
 						has_idea = FED_member_whitecrest
+						TAG = FIN
 					}
 				} 
 
@@ -429,7 +430,10 @@ country_event = { #Our Armies Lie Shattered
 			has_idea = ICI_war_of_resistance
 		}
 		FIN = {
-			#
+			controls_state = 149
+			controls_state = 148
+			controls_state = 147
+			controls_state = 722
 		}
 	}
 
@@ -460,6 +464,7 @@ country_event = { #Our Armies Lie Shattered
 					OR = { 
 						has_idea = FED_member 
 						has_idea = FED_member_whitecrest
+						TAG = FIN
 					}
 				} 
 

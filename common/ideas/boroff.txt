@@ -58,6 +58,7 @@ ideas = {
 			picture = great_depression
 			
 			modifier = {
+				political_power_gain = -1.50
 				stability_factor = 0.1
 				war_support_factor = 0.1
 				democratic_drift = 0.01

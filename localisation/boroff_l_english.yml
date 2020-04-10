@@ -11,51 +11,23 @@
  BOR_communism_DEF:0 "the Union of Boroff"
 
  #PARTIES
- BOR_neutrality_party:0 "PfNF"
- BOR_neutrality_party_long:0 "Party for A New Future"
- BOR_democratic_party:0 "HCP"
- BOR_democratic_party_long:0 "Hannover Conservative Party"
- BOR_communism_party:0 "HCP"
- BOR_communism_party_long:0 "Hamburg Communist Party"
- BOR_fascism_party:0 "PfNF"
- BOR_fascism_party_long:0 "Party for A New Future"
+ BOR_neutrality_party:0 "CRA"
+ BOR_neutrality_party_long:0 "Civil Reconstruction Authority"
+ BOR_democratic_party:0 "LC"
+ BOR_democratic_party_long:0 "League of Conservatives"
+ BOR_communism_party:0 "WAC"
+ BOR_communism_party_long:0 "Worker's Alliance for Change"
+ BOR_fascism_party:0 "DAP"
+ BOR_fascism_party_long:0 "Deutsch Arbeiterpartei"
 
  #NATIONAL SPIRITS
- BOR_constitutional_centralization:0 "Constitutional Centralization"
- BOR_constitutional_centralization_desc:0 "Although the Constitution devolves considerable autonomy to the regions in the Federal Republic of Boroff, President Biermann has routinely abused his emergency powers to bully the regional governments into submission. This arrangement cannot remain, although it is uncertain what Biermann plans to do with it."
- BOR_conservative_resistance:0 "Conservative Resistance"
- BOR_conservative_resistance_desc:0 "In the aftermath of the Treaty of Copenhagen, Boroff descended into civil war. Eventually, Biermann and his socialists emerged triumphant. In the interests of reconstruction, Biermann was forced to allow the Hannover Conservative Party into the government, where they have caused a ruckus. The Conservatives will resist Biermann and his ambitions for the nation until they are pacified."
+ BOR_civil_reconstruction_authority:0 "Civil Reconstruction Authority"
+ BOR_civil_reconstruction_authority_desc:0 "In the aftermath of the Borian Civil War, the CRA was founded under Governor Biermann as a non-partisan governmental organization in charge of rebuilding the country from the ruins of war. While it has been successful in this regard, the CRA has become a political player in its own right, and if the Communists or the Conservatives are to take power, the CRA will have to be dealt with..."
+ BOR_constitutional_centralization:0 "Constitutional Decentralization"
+ BOR_constitutional_centralization_desc:0 "Although the Treaty of Bremen, which ended the Borian Civil War, mandates that provinces would have their own assemblies and ratify Federal legislation independently, Governer Biermann has routinely forced the provincial governments to bow to his will. While it is technically legal under the CRA, this has led to a deep distrust of the Governer amongst the provincial assemblies."
  BOR_occupation_of_whitecrest:0 "Occupation of Whitecrest"
  BOR_occupation_of_whitecrest_desc:0 "When the Empire fell, we took the decision to occupy the homeland of our conquerers. While we may have defeated them in war, they still stand defiant against our will. Boroff has to spend considerable resources to keep Whitecrest in check."
 
  #LEADER DESCRIPTIONS
- werner_biermann_desc:0 "§YGeneral Description\n§YBorn:§W 18th of April, 1902, in Bremerhaven, Bremen, the Federal Republic of Boroff\n\n§YPersonal Life:§W Born to a no-name lower-class family, Werner Biermann was simply one of the many destitute children wandering the streets. His destiny seemed to be that of his father, a dockyard worker. By pure chance, he met the renowned Borian philosopher [TBD], who saw something in the young child. He paid for his education, and Biermann did not let him down. He was thrust into the national limelight when he won the coveted Imperial Scholarship.\n\n1"
+ werner_biermann_desc:0 "§YGeneral Description\n§YBorn:§W 18th of April, 1902, in Bremerhaven, Bremen, the Federal Republic of Boroff\n\n§YPersonal Life:§W Born to a no-name lower-class family, Werner Biermann was simply one of the many destitute children wandering the streets. His destiny seemed to be that of his father, a dockyard worker. By pure chance, he met the renowned Borian philosopher [TBD], who saw something in the young child. He paid for his education, and Biermann did not let him down. He was thrust into the national limelight when he won the coveted Imperial Scholarship.\n\nHe went abroad to further his studies, and by pure luck missed the destruction of the Civil War. When he returned, he was one of the few people who wasn't tainted by the vicious partisan struggle in the aftermath of the Treaty of Bremen, which he masterminded. As such, he was chosen to lead the Civil Reconstruction Authority as a effectively neutral leader, taking the title of Governer. His tenure has been successful, but his true goals remain hidden from public eyes. It remains to be seen if he will hand over his power to a democratically elected government, as mandated by the Treaty..."
  jurian_koch_desc:0 "§YGeneral Description\n§YBorn:§W 21st of May, 1895, in Birmingham, West Midlands, the Federal Republic of Kinloss\n\n§YPersonal Life:§W Born to the influential Koch family, Jurian is the brother of the famous Kinlossian politician, Johannes Koch. Where Johannes decided to stay in Kinloss, Jurian was offered a post in the provincial Borian Army. When the War of Independence broke out in 1924, he was on the front lines of the conflict."
-
- #NATIONAL FOCUS
- BOR_seven_point_manifesto:0 "The Seven Point Manifesto"
- BOR_seven_point_manifesto_desc:0 "Filler"
-
- BOR_safety_welfare_happiness:0 "Safety, Welfare, and Happiness"
- BOR_safety_welfare_happiness_desc:0 "Filler"
-
- BOR_precaution_strength:0 "Precation and Strength"
- BOR_precaution_strength_desc:0 "Filler"
-
- BOR_future_history_agency:0 "The Future History Agency"
- BOR_future_history_agency_desc:0 "Filler"
-
- BOR_armed_forces_base:0 "The Armed Forces"
- BOR_armed_forces_base_desc:0 "Filler"
-
- BOR_prosperity_growth:0 "Prosperity and Growth"
- BOR_prosperity_growth_desc:0 "Filler"
-
- BOR_economic_development_plan:0 "The Economic Development Plan"
- BOR_economic_development_plan_desc:0 "Filler"
-
- BOR_subsidise_arms_industry:0 "Subsidies for the Arms Industry"
- BOR_subsidise_arms_industry_desc:0 "Filler"
-
- BOR_nationalize_industry:0 "Nationalize Industry"
- BOR_nationalize_industry_desc:0 "Filler"

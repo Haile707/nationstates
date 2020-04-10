@@ -89,7 +89,7 @@ if = {
 
 add_ideas = {
 	FED_member
-	BOR_conservative_resistance
+	BOR_civil_reconstruction_authority
 	BOR_constitutional_centralization
 	BOR_occupation_of_whitecrest
 }
@@ -106,7 +106,6 @@ add_to_faction = VIP
 
 set_convoys = 150
 
-# DIPLOMACY
 if = {
 	limit = {
 		OR = {
@@ -133,10 +132,10 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 30
+	democratic = 42
 	fascism = 5
-	communism = 5
-	neutrality = 60
+	communism = 43
+	neutrality = 10
 }
 
 create_country_leader = {
@@ -157,7 +156,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
-		emergency_powers
+		#
 	}
 }
 

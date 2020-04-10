@@ -11,7 +11,7 @@ bookmarks = {
 			history = "BOR_GATHERING_STORM_DESC"
 			ideology = neutrality
 			ideas = {
-				BOR_conservative_resistance
+				BOR_civil_reconstruction_authority
 				BOR_constitutional_centralization
 				BOR_occupation_of_whitecrest
 			}

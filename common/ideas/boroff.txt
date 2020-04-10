@@ -22,28 +22,6 @@ ideas = {
 			}
 		}
 
-		BOR_conservative_resistance = {
-
-			allowed = {
-				always = yes
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = great_depression
-			
-			modifier = {
-				stability_factor = -0.20
-				democratic_drift = 0.05
-				political_power_factor = -0.25
-				conscription_factor = -0.05
-			}	
-		}
-
 		BOR_occupation_of_whitecrest = {
 
 			allowed = {
@@ -62,5 +40,28 @@ ideas = {
 				political_power_factor = -0.05
 				consumer_goods_factor = 0.05
 				conscription_factor = -0.15
+			}	
+		}
+
+		BOR_civil_reconstruction_authority = {
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = great_depression
+			
+			modifier = {
+				stability_factor = 0.1
+				war_support_factor = 0.1
+				democratic_drift = 0.01
+				communism_drift = 0.01
+				neutrality_drift = 0.1
 			}	
 		}

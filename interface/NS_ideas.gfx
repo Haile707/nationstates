@@ -2,17 +2,17 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_idea_BOR_constitutional_centralization"
-		texturefile = "gfx/interface/ideas/idea_sour_loser.dds"
-	}
-
-	spriteType = {
-		name = "GFX_idea_BOR_conservative_resistance"
-		texturefile = "gfx/interface/ideas/idea_rom_carol_ii_hedonist.dds"
+		texturefile = "gfx/interface/ideas/state_economy.tga"
 	}
 
 	spriteType = {
 		name = "GFX_idea_BOR_occupation_of_whitecrest"
 		texturefile = "gfx/interface/ideas/idea_generic_oppression.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_BOR_civil_reconstruction_authority"
+		texturefile = "gfx/interface/ideas/quenched_militarism.tga"
 	}
 
 	spriteType = {

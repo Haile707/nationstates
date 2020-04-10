@@ -18,7 +18,12 @@
  WIC_communism_party_long:0 "Whitecrest Secular Party"
 
  #NATIONAL SPIRITS
- 
+ WIC_heirs_of_an_empire:0 "Heirs of An Empire"
+ WIC_heirs_of_an_empire_desc:0 "We are the continuation of one of the greatest Empires in Europe! Whitecrest stretched from Gibralter to Reinklafvik to Helsinki to Tripoli, once, and our people have not yet forgotten..."
+ WIC_radical_resistance:0 "Radical Resistance"
+ WIC_radical_resistance_desc:0 "Radical elements in the priesthood, headed by deputy head Eric Scanvenius, have been doing there best to thwart any and every single government action. It is clear what they want, control of the contry and a restoration of Whitecrestian greatness!"
+ WIC_foreign_overlords:0 "Foreign Overlords"
+ WIC_foreign_overlords_desc:0 "Filler"
 
  #NATIONAL FOCUSES
  WIC_assasinate_lassen:0 "Assassinate Lassen"

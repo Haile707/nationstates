@@ -96,7 +96,7 @@ bookmarks = {
 		}
 
 		"ICI"={
-			history = "USA_GATHERING_STORM_DESC"
+			history = "ICI_GATHERING_STORM_DESC"
 			ideology = democratic
 			ideas = {
 				ICI_king_harald_iii
@@ -110,10 +110,12 @@ bookmarks = {
 
 		"WIC"={
 			minor = yes
-			history = "USA_GATHERING_STORM_DESC"
+			history = "WIC_GATHERING_STORM_DESC"
 			ideology = democratic
 			ideas = {
-				FED_member_whitecrest
+				WIC_heirs_of_an_empire
+				WIC_radical_resistance
+				WIC_foreign_overlords
 			}
 			focuses = {
 				WIC_assasinate_lassen

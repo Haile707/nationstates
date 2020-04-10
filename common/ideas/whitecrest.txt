@@ -1,0 +1,74 @@
+ideas = {
+
+	country = {
+		WIC_heirs_of_an_empire = {
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = triumphant_will
+			
+			modifier = {
+				army_attack_factor = 0.1
+				army_defence_factor = 0.1
+				conscription = 0.06
+			}
+		}
+
+		WIC_radical_resistance = {
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			available = { NOT = { has_government = fascism } }
+
+			removal_cost = -1
+
+			picture = saf_ossewabrandwag
+			
+			modifier = {
+				stability_factor = -0.05
+				war_support_factor = 0.05
+				fascism_drift = 0.05
+			}
+		}
+
+		WIC_foreign_overlords = {
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = MEX_callistas
+
+			modifier = {
+				stability_factor = -0.05
+				neutrality_drift = -0.01
+			}
+			
+			targeted_modifier = {
+				tag = BOR
+				cic_to_target_factor = 0.1
+				mic_to_target_factor = 0.1
+			}
+		}
+	}
+}

@@ -52,6 +52,9 @@ if = {
 
 add_ideas = {
 	FED_member_whitecrest
+	WIC_heirs_of_an_empire
+	WIC_radical_resistance
+	WIC_foreign_overlords
 }
 
 set_politics = {

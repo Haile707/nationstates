@@ -38,12 +38,6 @@ add_ideas = {
 	KAU_c_rag
 }
 
-add_ai_strategy = {
-    type = alliance
-    id = "BOR"
-    value = 200
-}
-
 set_politics = {
 	ruling_party = communism
 	last_election = "1936.1.1"

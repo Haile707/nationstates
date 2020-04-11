@@ -35,13 +35,6 @@ add_ideas = {
 	ICI_hawk_government
 }
 
-
-add_ai_strategy = {
-    type = alliance
-    id = "BOR"
-    value = 200
-}
-
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1

@@ -27,12 +27,6 @@ add_ideas = {
 	PRS_nation_divided
 }
 
-add_ai_strategy = {
-    type = alliance
-    id = "BOR"
-    value = 200
-}
-
 set_politics = {
 	ruling_party = democratic
 	last_election = "1936.1.1"

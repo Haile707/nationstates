@@ -37,12 +37,6 @@ add_ideas = {
 	BAR_KIN_naval_arms_race
 }
 
-add_ai_strategy = {
-    type = alliance
-    id = "BOR"
-    value = 200
-}
-
 set_politics = {
 	ruling_party = democratic
 	last_election = "1936.1.1"

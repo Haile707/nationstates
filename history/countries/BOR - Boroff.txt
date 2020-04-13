@@ -174,10 +174,47 @@ create_country_leader = {
 create_country_leader = {
 	name = "Ernst Thalmann"
 	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
-	picture = "Ernst_Thalmann.dds"
+	picture = "Portrait_Germany_Ernst_Thalmann.tga"
 	expire = "1965.1.1"
 	ideology = marxism
 	traits = {
 		headstrong
 	}
+}
+
+create_field_marshal = {
+	name = "Jurian Koch"
+	desc = "jurian_koch_desc"
+	picture = "Jurian_Koch.dds"
+	traits = { brilliant_strategist urban_assault_specialist politically_connected media_personality }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Ritter von Leeb"
+		picture = "Portrait_Germany_Wilhelm_Ritter_von_Leeb.dds"
+	traits = { armor_officer career_officer trait_cautious }
+	skill = 4
+	id = 25
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Willi Reschke"
+	picture = "Portrait_Germany_Willi_Reschke.dds"
+	traits = { trait_engineer infantry_officer trait_reckless }
+	skill = 3
+
+	id = 33
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 3
 }

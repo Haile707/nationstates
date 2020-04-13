@@ -31,3 +31,22 @@
  #LEADER DESCRIPTIONS
  werner_biermann_desc:0 "§YGeneral Description\n§YBorn:§W 18th of April, 1902, in Bremerhaven, Bremen, the Federal Republic of Boroff\n\n§YPersonal Life:§W Born to a no-name lower-class family, Werner Biermann was simply one of the many destitute children wandering the streets. His destiny seemed to be that of his father, a dockyard worker. By pure chance, he met the renowned Borian philosopher [TBD], who saw something in the young child. He paid for his education, and Biermann did not let him down. He was thrust into the national limelight when he won the coveted Imperial Scholarship.\n\nHe went abroad to further his studies, and by pure luck missed the destruction of the Civil War. When he returned, he was one of the few people who wasn't tainted by the vicious partisan struggle in the aftermath of the Treaty of Bremen, which he masterminded. As such, he was chosen to lead the Civil Reconstruction Authority as a effectively neutral leader, taking the title of Governer. His tenure has been successful, but his true goals remain hidden from public eyes. It remains to be seen if he will hand over his power to a democratically elected government, as mandated by the Treaty..."
  jurian_koch_desc:0 "§YGeneral Description\n§YBorn:§W 21st of May, 1895, in Birmingham, West Midlands, the Federal Republic of Kinloss\n\n§YPersonal Life:§W Born to the influential Koch family, Jurian is the brother of the famous Kinlossian politician, Johannes Koch. Where Johannes decided to stay in Kinloss, Jurian was offered a post in the provincial Borian Army. When the War of Independence broke out in 1924, he was on the front lines of the conflict."
+
+ #GOALS
+ BOR_civil_reconstruction_authority_focus:0 "The Civil Reconstruction Authority"
+
+ BOR_thalmann_aspiration:0 "Thalmann's Aspirations"
+
+ BOR_biermann_ambition:0 "Biermann's Ambition"
+ BOR_biermann_ambition_desc:0 "Everybody knows why the CRA exists: to rebuild the country from the fires of civil war. But Biermann believes differently. He believes that the CRA can become something greater than Thalmann, Koch, or Biermann; something even greater than Boroff itself. Unfortunately, it will be a long and hard road to salvation..."
+
+ BOR_koch_alliance:0 "Koch's Alliance"
+
+ BOR_new_constitution:0 "A New Constitution"
+
+ BOR_suspension:0 "Suspension"
+
+ BOR_conservative_victory:0 "Conservative Victory"
+
+ BOR_socialist_triumph:0 "Socialist Triumph"
+

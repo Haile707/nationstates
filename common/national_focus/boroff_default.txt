@@ -1,0 +1,186 @@
+focus_tree = {
+	id = boroff_default_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = BOR
+		}
+	}
+
+	focus = { #The Civil Reconstruction Authority
+		id = BOR_civil_reconstruction_authority_focus
+		
+		icon = GFX_goal_liberty
+
+		ai_will_do = {
+			factor = 1
+		}
+		
+		x = 8
+		y = 0
+		
+		cost = 1
+
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+	focus = { #Thalmann's Aspirations
+		id = BOR_thalmann_aspiration
+		
+		icon = GFX_goal_thalmann
+
+		ai_will_do = {
+			factor = 1
+		}
+		
+		x = -2
+		y = 1
+		relative_position_id = BOR_civil_reconstruction_authority_focus
+
+		prerequisite = { focus = BOR_civil_reconstruction_authority_focus }
+		
+		cost = 5
+
+		completion_reward = {
+			#
+		}
+	}
+
+	focus = { #Biermann's Ambition
+		id = BOR_biermann_ambition
+		
+		icon = GFX_goal_biermann
+
+		ai_will_do = {
+			factor = 1
+		}
+		
+		x = 0
+		y = 1
+		relative_position_id = BOR_civil_reconstruction_authority_focus
+
+		prerequisite = { focus = BOR_civil_reconstruction_authority_focus }
+		
+		cost = 5
+
+		completion_reward = {
+			#
+		}
+	}
+
+	focus = { #Koch's Alliance
+		id = BOR_koch_alliance
+		
+		icon = GFX_goal_koch
+
+		ai_will_do = {
+			factor = 1
+		}
+		
+		x = 2
+		y = 1
+		relative_position_id = BOR_civil_reconstruction_authority_focus
+
+		prerequisite = { focus = BOR_civil_reconstruction_authority_focus }
+		
+		cost = 5
+
+		completion_reward = {
+			#
+		}
+	}
+
+	focus = { #A New Constitution
+		id = BOR_new_constitution
+		
+		icon = GFX_goal_new_treaty
+
+		ai_will_do = {
+			factor = 1
+		}
+		
+		x = 0
+		y = 2
+		relative_position_id = BOR_civil_reconstruction_authority_focus
+
+		prerequisite = { focus = BOR_thalmann_aspiration }
+		prerequisite = { focus = BOR_biermann_ambition }
+		prerequisite = { focus = BOR_koch_alliance }
+		
+		cost = 10
+
+		completion_reward = {
+			#
+		}
+	}
+
+	focus = { #Suspension
+		id = BOR_suspension
+		
+		#icon = 
+
+		ai_will_do = {
+			factor = 1
+		}
+		
+		x = 0
+		y = 3
+		relative_position_id = BOR_civil_reconstruction_authority_focus
+
+		prerequisite = { focus = BOR_new_constitution }
+		
+		cost = 10
+
+		completion_reward = {
+			#
+		}
+	}
+
+	focus = { #Conservative Victory
+		id = BOR_conservative_victory
+		
+		#icon = 
+
+		ai_will_do = {
+			factor = 1
+		}
+		
+		x = 5
+		y = 4
+		relative_position_id = BOR_civil_reconstruction_authority_focus
+
+		prerequisite = { focus = BOR_suspension }
+		
+		cost = 2
+
+		completion_reward = {
+			#
+		}
+	}
+
+	focus = { #Socialist Triumph
+		id = BOR_socialist_triumph
+		
+		#icon = 
+
+		ai_will_do = {
+			factor = 1
+		}
+		
+		x = -5
+		y = 4
+		relative_position_id = BOR_civil_reconstruction_authority_focus
+
+		prerequisite = { focus = BOR_suspension }
+		
+		cost = 2
+
+		completion_reward = {
+			#
+		}
+	}

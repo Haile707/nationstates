@@ -13,12 +13,14 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = great_depression
+			picture = generic_agrarian_reform
 			
 			modifier = {
-				consumer_goods_factor = 0.05
-				industrial_capacity_factory = -0.10
-				industrial_capacity_dockyard = -0.10
+				monthly_population = 0.6
+				stability_factor = 0.1
+				industrial_capacity_factory = -0.20
+				production_speed_buildings_factor = -0.20
+				research_speed_factor = -0.10
 			}
 		}
 

@@ -39,12 +39,7 @@ spriteTypes = {
 		name = "GFX_idea_KIN_political_turmoil"
 		texturefile = "gfx/interface/ideas/generic_disjointed_gov.dds"
 	}
-
-	spriteType = {
-		name = "GFX_idea_FED_developing_economy"
-		texturefile = "gfx/interface/ideas/idea_chi_hyper_inflation.dds"
-	}
-
+	
 	spriteType = {
 		name = "GFX_idea_PRS_golden_age"
 		texturefile = "gfx/interface/ideas/generic_victors_of_ww1.dds"

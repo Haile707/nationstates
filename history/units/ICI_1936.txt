@@ -286,7 +286,7 @@ units = {
 
 	division = {
 		name = "4. 'King's Own' Dragonregiment"
-		location = 6144
+		location = 11105
 		division_template = "Dragonregiment"
 		start_experience_factor = 0.9
 		start_equipment_factor = 1

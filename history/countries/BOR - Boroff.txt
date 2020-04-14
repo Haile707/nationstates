@@ -199,7 +199,6 @@ create_corps_commander = {
 		picture = "Portrait_Germany_Wilhelm_Ritter_von_Leeb.dds"
 	traits = { armor_officer career_officer trait_cautious }
 	skill = 4
-	id = 25
 	attack_skill = 4
 	defense_skill = 3
 	planning_skill = 3
@@ -211,8 +210,6 @@ create_corps_commander = {
 	picture = "Portrait_Germany_Willi_Reschke.dds"
 	traits = { trait_engineer infantry_officer trait_reckless }
 	skill = 3
-
-	id = 33
 	attack_skill = 3
 	defense_skill = 1
 	planning_skill = 3

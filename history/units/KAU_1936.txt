@@ -1,7 +1,7 @@
 ﻿####### Division Templates #######
 division_template = { 
 	name = "Divisione di Fanteria" 
-	division_names_group = KAU_INF_01 
+	division_names_group = ITA_INF_01 
 
 	# Represents nearly all infantry divisions
 	# In later years, CC.NN. Brigade added to INF Division (1x2 MIL/INF regiments)
@@ -21,7 +21,7 @@ division_template = {
 
 division_template = { 
 	name = "Divisione Alpina" 
-	division_names_group = KAU_MNT_01 
+	division_names_group = ITA_MNT_01 
 
 	regiments = { 
 		mountaineers = { x = 0 y = 0 } 												# (elite) Alpini Regiment
@@ -41,7 +41,7 @@ division_template = {
 
 division_template = { 
 	name = "Divisione Celere" 
-	division_names_group = KAU_CAV_02 
+	division_names_group = ITA_CAV_02 
 
 	regiments = { 
 		cavalry = { x = 0 y = 0 } 
@@ -58,7 +58,7 @@ division_template = {
 
 division_template = { 
 	name = "Reggimento di Cavalleria" 
-	division_names_group = KAU_CAV_01 
+	division_names_group = ITA_CAV_01 
 
 	regiments = { 
 		cavalry = { x = 0 y = 0 } 

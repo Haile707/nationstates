@@ -30,10 +30,7 @@ news_event = { #Treaty of Helsinki - Draw
 			NOT = {
 				TAG = ICI
 			}
-			OR = {
-				has_idea = FED_member
-				TAG = WIC
-			}
+			member_of_the_federation = yes
 		}
 	}
 }
@@ -59,10 +56,7 @@ news_event = { #Treaty of Helsinki - Tundramen Victory
 			NOT = {
 				TAG = ICI
 			}
-			OR = {
-				has_idea = FED_member
-				TAG = WIC
-			}
+			member_of_the_federation = yes
 		}
 	}
 }
@@ -93,10 +87,7 @@ news_event = { #Treaty of Helsinki - Finnish Victory
 			NOT = {
 				TAG = ICI
 			}
-			OR = {
-				has_idea = FED_member
-				TAG = WIC
-			}
+			member_of_the_federation = yes
 		}
 	}
 }

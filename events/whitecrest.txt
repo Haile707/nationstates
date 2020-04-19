@@ -14,10 +14,7 @@ country_event = { #Alex Lassen dies
 		hidden_effect = {
 			every_country = { 
 				limit = { 
-					OR = { 
-						has_idea = FED_member 
-						has_idea = FED_member_whitecrest
-					}
+					member_of_the_federation = yes
 				} 
 
 				news_event = { 

@@ -1,0 +1,67 @@
+add_namespace = boroff
+
+country_event = { #Thalmann's Aspirations
+	id = boroff.1
+	title = boroff.1.t
+	desc = boroff.1.d
+	picture = GFX_report_event_soviet_army_greeted
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = boroff.1.a
+
+		add_political_power = 50
+
+		add_popularity = {
+    		ideology = communism
+    		popularity = 0.075
+		}
+	}
+}
+
+country_event = { #Biermann's Ambition
+	id = boroff.2
+	title = boroff.2.t
+	desc = boroff.2.d
+	picture = GFX_report_event_soviet_army_greeted
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = boroff.2.a
+
+		add_political_power = 50
+
+		add_popularity = {
+    		ideology = neutrality
+    		popularity = 0.075
+		}
+	}
+}
+
+country_event = { #Koch's Alliance
+	id = boroff.3
+	title = boroff.3.t
+	desc = boroff.3.d
+	picture = GFX_report_event_soviet_army_greeted
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = boroff.3.a
+
+		add_political_power = 50
+
+		add_popularity = {
+    		ideology = democratic
+    		popularity = 0.075
+		}
+	}
+}

@@ -34,19 +34,34 @@
 
  #GOALS
  BOR_civil_reconstruction_authority_focus:0 "The Civil Reconstruction Authority"
+ BOR_civil_reconstruction_authority_focus_desc:0 "The CRA has been in existence for 12 years ever since 1924 and the Civil War. While it has done a splendid job mending old wounds, this interregnum has continued for long enough. Communists, Conservatives, even Governor Biermann himself want to see an end to the CRA. There is no time like the present!"
 
  BOR_thalmann_aspiration:0 "Thalmann's Aspirations"
+ BOR_thalmann_aspiration_desc:0 "The son of a farmworker, Thalmann has risen through the ranks of the Workers Alliance to claim the mantle of leadership. He has significant support from urban workers and trade unions, and he seeks to create a communist utopia in Boroff. Of course, his ambitions will be tempered by the CRA and the Conservative League, so don't get your hopes up."
 
  BOR_biermann_ambition:0 "Biermann's Ambition"
  BOR_biermann_ambition_desc:0 "Everybody knows why the CRA exists: to rebuild the country from the fires of civil war. But Biermann believes differently. He believes that the CRA can become something greater than Thalmann, Koch, or Biermann; something even greater than Boroff itself. Unfortunately, it will be a long and hard road to salvation..."
 
  BOR_koch_alliance:0 "Koch's Alliance"
+ BOR_koch_alliance_desc:0 "Son of a wealthy Kinlossian businessman and accomplished military hero, Jurian Koch has become the head of the Conservative League, an alliance of like-minded capitalists, military officers, and rural peasants. In service of his adopted homeland, he and his League preach for a return to a pre-Independance government system, with powerful provincial assemblies and a weak executive government."
 
  BOR_new_constitution:0 "A New Constitution"
+ BOR_new_constitution_desc:0 "In order for Biermann to step down, a proper Constitution will have to be agreed on. This is something he will not compromise on. And so begins months of bickering and arguing as enemies prepare to bury the hatchet and finally bring peace and prosperity to their country."
 
  BOR_suspension:0 "Suspension"
+ BOR_suspension_desc:0 "The seven days to the ratification of the Constitution seem like any other, but it is clear, at least to those in charge, that this will be no ordinary week. His loyal police force prowl the streets, armories are emptied, and strategic locations fortified. All of this preparation has flown beneath the radar of both Koch and Thalmann. Who will prevail?"
 
  BOR_conservative_victory:0 "Conservative Victory"
 
  BOR_socialist_triumph:0 "Socialist Triumph"
 
+ #EVENTS
+ boroff.1.t:0 "Thalmann's Aspirations"
+ boroff.1.d:0 ""
+
+ boroff.2.t:0 "Biermann's Ambition"
+ boroff.2.d:0 ""There are inherently two kinds of governments in this world: those that are authoritarian and those that are democratic. Of course, there are many variations on a local scale, but fundamentally every ideology falls into these two categories," said Biermann, leaning on the lectern. In front of him sat the hundreds of students from Berlin University. "While many of us are often quick to denounce authoritarian governments, they have merit. Two men in a room can get more done than a hundred." Biermann paused, as a student had just raised his arm.\n\n"But what if we need to move a piano?" he said, to the laughter of his fellow students.\n\nBiermann smiled as well, "Indeed, but it is easier to convince another man that you need to move a piano or ninety-nine of them? The issue is not whether you can move the piano, it is whether you can decide to move the piano or not. If you were a scientist and predict that a meteor will destroy the piano, it will have to be moved, but the other ninety-nine men are not as well learned as you. Would they trust you? Certainly, trust between people is very important to a stable regime, but is it easier to form these bonds of trust with one man or ninety-nine?"\n\nAnother student raised her hand, "But what if one of the ninety-eight other men had a better idea on how to move the piano than the two men?"\n\nBiermann thought for a moment, "Well, that's where democracy comes in. A government that allows free-thinking and constructive criticism. Perfect for research, and innovation. Democracy allows people to be happy, and it allows people to enjoy life, something that autocracy could never allow."\n\nAnother student's hand went up, "So are you saying that an ideal government is a hybrid of democracy and autocracy?"\n\nBiermann shook his head, "No, that kind of government will be too democratic in times of crisis and too authoritarian in times of peace. It is not about what kind of government it is, but rather when it is.""
+ boroff.2.a:0 ""Class dismissed.""
+
+ boroff.3.t:0 "Koch's Alliance"
+ boroff.3.d:0 ""

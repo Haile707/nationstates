@@ -41,3 +41,23 @@
 
  end_the_race:0 "End The Race"
  end_the_race_desc:0 "Filler"
+
+ #POWER STRUGGLE
+ FED_power_race:0 "Federation Struggles"
+ FED_power_race_desc:0 "While the Federation has long faded from the minds of the common people, the Federal Senate still convenes monthly in Berlin, and it is here where a silent battle rages for control of the Federation, even if this is a mere symbolic position.\n\n[global.BORpowerlevel][global.KINpowerlevel][global.KAUpowerlevel][global.PRSpowerlevel][global.BARpowerlevel][global.ICIpowerlevel][global.VIPpowerlevel][global.ANDpowerlevel][global.WICpowerlevel]"
+ level_of_power:0 "[ROOT.GetName] has §G[?ROOT.power_level]§! Federation Points"
+ level_of_power_desc:0 "[ROOT.GetName] has §G[?ROOT.power_level]§! Federation Points.\n\nThis is calculated like so"
+ FED_not_in:0 ""
+ BOR_power_level:0 "§Y[BOR.GetName]§! has §G[?BOR.power_level]§! Federation Points\n\n"
+ KIN_power_level:0 "§Y[KIN.GetName]§! has §G[?KIN.power_level]§! Federation Points\n\n"
+ KAU_power_level:0 "§Y[KAU.GetName]§! has §G[?KAU.power_level]§! Federation Points\n\n"
+ PRS_power_level:0 "§Y[PRS.GetName]§! has §G[?PRS.power_level]§! Federation Points\n\n"
+ BAR_power_level:0 "§Y[BAR.GetName]§! has §G[?BAR.power_level]§! Federation Points\n\n"
+ ICI_power_level:0 "§Y[ICI.GetName]§! has §G[?ICI.power_level]§! Federation Points\n\n"
+ VIP_power_level:0 "§Y[VIP.GetName]§! has §G[?VIP.power_level]§! Federation Points\n\n"
+ AND_power_level:0 "§Y[AND.GetName]§! has §G[?AND.power_level]§! Federation Points\n\n"
+ WIC_power_level:0 "§Y[WIC.GetName]§! has §G[?WIC.power_level]§! Federation Points\n\n"
+
+ ###DEPRECATED###
+ federation_race_icon_value:0 "[?ROOT.power_level]"
+ federation_race_full_support_breakdown:0 "[ROOT.GetName] has [?ROOT.power_level] Federation Points"

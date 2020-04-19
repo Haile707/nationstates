@@ -1,0 +1,36 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			every_country = {
+				if = {
+					limit = {
+						member_of_the_federation = yes
+					}
+					set_variable = { ROOT.num_owned_states = num_owned_states }
+					set_variable = { ROOT.num_battalions = num_battalions }
+					set_variable = { ROOT.num_of_factories = num_of_factories }
+
+					set_variable = { ROOT.power_level = ROOT.num_owned_states }
+					add_to_variable = { ROOT.power_level = ROOT.num_battalions }
+					add_to_variable = { ROOT.power_level = ROOT.num_of_factories }
+				}
+			}
+		}
+	}
+	on_monthly = {
+		effect = {
+			every_country = {
+				limit = {
+					member_of_the_federation = yes
+				}
+				set_variable = { ROOT.num_owned_states = num_owned_states }
+				set_variable = { ROOT.num_battalions = num_battalions }
+				set_variable = { ROOT.num_of_factories = num_of_factories }
+
+				set_variable = { ROOT.power_level = ROOT.num_owned_states }
+				add_to_variable = { ROOT.power_level = ROOT.num_battalions }
+				add_to_variable = { ROOT.power_level = ROOT.num_of_factories }
+			}
+		}
+	}
+}

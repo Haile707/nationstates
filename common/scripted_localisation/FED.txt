@@ -1,0 +1,116 @@
+defined_text = {
+	name = BORpowerlevel
+	text = {
+		trigger = {
+			BOR = { member_of_the_federation = yes }
+		}
+		localization_key = BOR_power_level
+	}
+	text = { 
+		localization_key = FED_not_in
+	}
+}
+
+defined_text = {
+	name = KINpowerlevel
+	text = {
+		trigger = {
+			KIN = { member_of_the_federation = yes }
+		}
+		localization_key = KIN_power_level
+	}
+	text = { 
+		localization_key = FED_not_in
+	}
+}
+
+defined_text = {
+	name = KAUpowerlevel
+	text = {
+		trigger = {
+			KAU = { member_of_the_federation = yes }
+		}
+		localization_key = KAU_power_level
+	}
+	text = { 
+		localization_key = FED_not_in
+	}
+}
+
+defined_text = {
+	name = PRSpowerlevel
+	text = {
+		trigger = {
+			PRS = { member_of_the_federation = yes }
+		}
+		localization_key = PRS_power_level
+	}
+	text = { 
+		localization_key = FED_not_in
+	}
+}
+
+defined_text = {
+	name = BARpowerlevel
+	text = {
+		trigger = {
+			BAR = { member_of_the_federation = yes }
+		}
+		localization_key = BAR_power_level
+	}
+	text = { 
+		localization_key = FED_not_in
+	}
+}
+
+defined_text = {
+	name = ICIpowerlevel
+	text = {
+		trigger = {
+			ICI = { member_of_the_federation = yes }
+		}
+		localization_key = ICI_power_level
+	}
+	text = { 
+		localization_key = FED_not_in
+	}
+}
+
+defined_text = {
+	name = VIPpowerlevel
+	text = {
+		trigger = {
+			VIP = { member_of_the_federation = yes }
+		}
+		localization_key = VIP_power_level
+	}
+	text = { 
+		localization_key = FED_not_in
+	}
+}
+
+defined_text = {
+	name = ANDpowerlevel
+	text = {
+		trigger = {
+			"AND" = { member_of_the_federation = yes }
+		}
+		localization_key = AND_power_level
+	}
+	text = { 
+		localization_key = FED_not_in
+	}
+}
+
+defined_text = {
+	name = WICpowerlevel
+	text = {
+		trigger = {
+			WIC = { member_of_the_federation = yes }
+		}
+		localization_key = WIC_power_level
+	}
+	text = { 
+		localization_key = FED_not_in
+	}
+}

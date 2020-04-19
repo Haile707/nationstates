@@ -2,6 +2,15 @@ BAR_KIN_naval_arms_race_decision = {
 	icon = power_struggle
 	picture = GFX_decision_cat_picture_ger_case_anton
 	visible = {
-		has_idea = BAR_KIN_naval_arms_race
+		federation_naval_racer = yes
+	}
+}
+
+FED_power_race = {
+	icon = power_struggle
+	picture = GFX_decision_cat_picture_chi_political_support
+	priority = 102
+	visible = {
+		member_of_the_federation = yes
 	}
 }

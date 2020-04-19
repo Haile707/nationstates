@@ -13,7 +13,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_agrarian_reform
+			picture = generic_agrarian_society
 			
 			modifier = {
 				monthly_population = 0.6

@@ -29,6 +29,9 @@ add_ideas = {
 	KAU_c_rag
 }
 
+create_faction = "Second Congress"
+add_to_faction = KAU
+
 set_politics = {
 	ruling_party = communism
 	last_election = "1936.1.1"

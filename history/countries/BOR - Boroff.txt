@@ -94,14 +94,8 @@ add_ideas = {
 	BOR_occupation_of_whitecrest
 }
 
-create_faction = Whitecrest
+create_faction = "Berlinpakt"
 add_to_faction = BOR
-add_to_faction = KIN
-add_to_faction = ICI
-add_to_faction = PRS
-add_to_faction = BAR
-add_to_faction = KAU
-add_to_faction = AND
 add_to_faction = VIP
 
 set_convoys = 150

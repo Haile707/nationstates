@@ -1,11 +1,11 @@
-FED_alliance = {
-	enable = {
-		has_idea = FED_member
-	}
+vip_friends_with_bor = {
+	allowed = { tag = VIP }
+	enable = { has_idea = VIP_bor_trade }
 	abort_when_not_enabled = yes
+
 	ai_strategy = {
-    	type = alliance
-    	id = "BOR"
-    	value = 200
+		type = alliance
+		id = "BOR"
+		value = 200
 	}
 }

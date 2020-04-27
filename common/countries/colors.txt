@@ -710,41 +710,41 @@ BOR = {
 }
 
 PRS = { 
-	color = HSV { 0.1 0.15 0.4 }
-	color_ui = rgb { 138 155 116 }
+	color = rgb { 193 171 8  }
+	color_ui = rgb { 251 222 10 }
 }
 
 BAR = {
-	color = HSV { 0.1 0.15 0.4 }
-	color_ui = rgb { 138 155 116 }
+	color = rgb { 0 153 51 }
+	color_ui = rgb { 0 77 26 }
 }
 
 KIN = {
-	color = HSV { 0.1 0.15 0.4 }
-	color_ui = rgb { 138 155 116 }
+	color = rgb { 150 150 150 }
+	color_ui = rgb { 38 38 38 }
 }
 
 ICI = {
-	color = HSV { 0.1 0.15 0.4 }
-	color_ui = rgb { 138 155 116 }
+	color = rgb { 0 102 204 }
+	color_ui = rgb { 0 38 77 }
 }
 
 WIC = {
-	color = HSV { 0.1 0.15 0.4 }
-	color_ui = rgb { 138 155 116 }
+	color = rgb { 153 116 93 }
+	color_ui = rgb { 199 151 121 }
 }
 
 KAU = {
-	color = HSV { 0.1 0.15 0.4 }
-	color_ui = rgb { 138 155 116 }
+	color = rgb { 208 12 39 }
+	color_ui = rgb { 208 12 39 }
 }
 
 AND = {
-	color = HSV { 0.1 0.15 0.4 }
-	color_ui = rgb { 138 155 116 }
+	color = rgb { 51 51 153 }
+	color_ui = rgb { 19 19 57 }
 }
 
 VIP = {
-	color = HSV { 0.1 0.15 0.4 }
-	color_ui = rgb { 138 155 116 }
+	color = rgb { 10 99 133 }
+	color_ui = rgb { 5 53 71 }
 }
